@@ -48,16 +48,21 @@ jobs:
         # Make sure static directory exists
         mkdir -p jupyter-lite/static
 
+        # Organize files according to JupyterLite documentation
+        # https://jupyterlite.readthedocs.io/en/latest/howto/content/files.html
+
+        # Create a special 'files' directory in static for read-only files like CSV data
+        mkdir -p jupyter-lite/static/files/data/fresh_service_tickets
+        cp -r $GITHUB_WORKSPACE/data/fresh_service_tickets/*.csv jupyter-lite/static/files/data/fresh_service_tickets/ || echo "Warning: Could not copy CSV files to static files"
+
         # Change directory and build with config
         cd jupyter-lite
 
+        # Debug what's in static directory before build
+        echo "Files in static/files directory:"
+        find static -type f | sort
+
         jupyter lite build --config pyproject.toml
-
-        # Create data directories in the output directory and copy data files
-        mkdir -p _output/files/data/fresh_service_tickets
-
-        # Use absolute paths to reference files from the root of the repository
-        cp -r $GITHUB_WORKSPACE/data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/ || echo "Warning: Could not copy CSV files"
 
         # List files to verify
         echo "Files copied to output directory:"

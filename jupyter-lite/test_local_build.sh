@@ -43,13 +43,21 @@ $PIP_CMD install --upgrade pip wheel || { echo "Failed to upgrade pip"; exit 1; 
 $PIP_CMD install jupyterlite-core || { echo "Failed to install jupyterlite-core"; exit 1; }
 $PIP_CMD install -e . || { echo "Failed to install package from setup.py"; exit 1; }
 
-echo "Creating data directory..."
+echo "Creating data directories..."
+# Copy to content directory (for Jupyter notebooks access)
 mkdir -p content/data/fresh_service_tickets
-cp -r ../data/fresh_service_tickets/*.csv content/data/fresh_service_tickets/ 2>/dev/null || echo "Could not copy data files (this is normal if running locally first time)"
+cp -r ../data/fresh_service_tickets/*.csv content/data/fresh_service_tickets/ 2>/dev/null || echo "Could not copy data files to content (this is normal if running locally first time)"
+
+# Copy to static/files directory (for direct file access in JupyterLite)
+mkdir -p static/files/data/fresh_service_tickets
+cp -r ../data/fresh_service_tickets/*.csv static/files/data/fresh_service_tickets/ 2>/dev/null || echo "Could not copy data files to static (this is normal if running locally first time)"
 
 # Print list of files to verify
 echo "Files in content/data/fresh_service_tickets:"
-ls -la content/data/fresh_service_tickets/ 2>/dev/null || echo "No files found"
+ls -la content/data/fresh_service_tickets/ 2>/dev/null || echo "No files found in content directory"
+
+echo "Files in static/files/data/fresh_service_tickets:"
+ls -la static/files/data/fresh_service_tickets/ 2>/dev/null || echo "No files found in static directory"
 
 echo "Building JupyterLite..."
 # Use the command with pyproject.toml configuration
