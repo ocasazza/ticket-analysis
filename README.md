@@ -66,23 +66,36 @@ The JupyterLite instance is automatically deployed to GitHub Pages when changes 
 
 ### Local Development
 
-To build and test the JupyterLite deployment locally:
+For quick local testing, we've included a helper script:
+
+1. Run the test script (this will install dependencies, build the site, and provide instructions):
+   ```
+   cd jupyter-lite
+   ./test_local_build.sh
+   ```
+
+2. After a successful build, serve the site locally:
+   ```
+   python -m http.server 8765 -d _output
+   ```
+
+3. Open your browser to `http://localhost:8765/` to access the local JupyterLite instance
+
+Alternatively, you can perform the steps manually:
 
 1. Install the required packages:
    ```
    pip install -r jupyter-lite/requirements.txt
-   pip install jupyter-lite-lab
+   pip install jupyterlite
    ```
 
 2. Build the JupyterLite site:
    ```
    cd jupyter-lite
-   jupyter lite build
+   python -m jupyterlite build
    ```
 
 3. Serve the site locally:
    ```
-   jupyter lite serve
+   python -m http.server 8765 -d _output
    ```
-
-4. Open your browser to `http://localhost:8888/` to access the local JupyterLite instance
