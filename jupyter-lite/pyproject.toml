@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ticket-analytics-jupyterlite"
+version = "0.1.0"
+description = "JupyterLite for ticket analytics"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "jupyterlite-core",
+    "jupyterlite-xeus-python",
+    "jupyterlab",
+    "jupyterlab-fasta",
+    "jupyterlab-geojson",
+    "plotly",
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scikit-learn",
+    "scipy",
+    "seaborn",
+    "ipywidgets",
+]
+
+[tool.jupyterlite]
+output-dir = "_output"
+apps = ["lab", "retro"]
+contents = ["content"]
+static-dir = "static"
+include-data = true # Ensure data files are included in the build
+
+[tool.jupyterlite.files]
+# Include data files explicitly
+content = [
+    "content/data/fresh_service_tickets/*.csv",
+    "content/ticket_analysis.ipynb"
+]
