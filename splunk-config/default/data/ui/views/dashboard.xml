@@ -1,16 +1,14 @@
-<dashboard>
+<form version="1.1" theme="dark">
   <label>Ticket Analytics Dashboard</label>
   <description>Analysis of support tickets</description>
-  
-  <fieldset submitButton="true" autoRun="false">
+  <fieldset submitButton="true" autoRun="true">
     <input type="time" token="time_token" searchWhenChanged="true">
       <label>Time Range</label>
       <default>
-        <earliest>-30d@d</earliest>
-        <latest>now</latest>
+        <earliest>0</earliest>
+        <latest></latest>
       </default>
     </input>
-    
     <input type="multiselect" token="agent_token" searchWhenChanged="true">
       <label>Agents</label>
       <choice value="*">All</choice>
@@ -22,97 +20,116 @@
         <earliest>-1y@y</earliest>
         <latest>now</latest>
       </search>
-      <delimiter> OR </delimiter>
+      <delimiter> </delimiter>
+      <valuePrefix>"</valuePrefix>
+      <valueSuffix>"</valueSuffix>
+      <initialValue>*</initialValue>
     </input>
   </fieldset>
-  
   <row>
     <panel>
       <title>Tickets Over Time</title>
       <chart>
+        <title>$agent_token$</title>
         <search>
-          <query>index=ticket_data agent=$agent_token$ | timechart count span=1d</query>
+          <query>index="ticket_data" agent IN ($agent_token$) 
+| bin _time span=1d
+| chart count over _time by agent span=1d  limit=0 useother=false</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
-        <option name="charting.chart">line</option>
+        <option name="charting.chart">area</option>
+        <option name="charting.chart.stackMode">stacked</option>
         <option name="charting.drilldown">none</option>
         <option name="charting.legend.placement">bottom</option>
+        <option name="refresh.display">preview</option>
       </chart>
     </panel>
   </row>
-  
   <row>
     <panel>
       <title>Tickets by Status</title>
       <chart>
         <search>
-          <query>index=ticket_data agent=$agent_token$ | stats count by status | sort -count</query>
+          <query>index=ticket_data agent IN ($agent_token$) | stats count by  agent status | sort -count</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
+        <option name="charting.axisTitleX.visibility">collapsed</option>
+        <option name="charting.axisTitleY.visibility">collapsed</option>
+        <option name="charting.axisTitleY2.visibility">collapsed</option>
         <option name="charting.chart">pie</option>
         <option name="charting.drilldown">none</option>
+        <option name="charting.legend.placement">none</option>
+        <option name="height">412</option>
+        <option name="refresh.display">progressbar</option>
+        <option name="trellis.enabled">1</option>
       </chart>
     </panel>
-    
     <panel>
       <title>Tickets by Priority</title>
       <chart>
         <search>
-          <query>index=ticket_data agent=$agent_token$ | stats count by priority | sort -count</query>
+          <query>index=ticket_data agent IN ($agent_token$) 
+| chart count over priority by agent | sort -count</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
-        <option name="charting.chart">bar</option>
+        <option name="charting.chart">column</option>
         <option name="charting.drilldown">none</option>
+        <option name="height">409</option>
+        <option name="refresh.display">progressbar</option>
       </chart>
     </panel>
   </row>
-  
   <row>
     <panel>
       <title>Top Ticket Categories</title>
       <chart>
         <search>
-          <query>index=ticket_data agent=$agent_token$ | stats count by category | sort -count | head 10</query>
+          <query>index=ticket_data agent IN ($agent_token$)
+| stats count by category 
+| sort -count | head 10</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
         <option name="charting.chart">bar</option>
         <option name="charting.drilldown">none</option>
+        <option name="refresh.display">progressbar</option>
       </chart>
     </panel>
-    
     <panel>
       <title>Response Time Analysis</title>
       <chart>
         <search>
-          <query>index=ticket_data agent=$agent_token$ 
-| rex field=first_response_time__in_hrs "(?<hours>\d+):(?<minutes>\d+):(?<seconds>\d+)" 
+          <query>index=ticket_data agent IN ($agent_token$)
+| rex field=first_response_time__in_hrs "(?&lt;hours&gt;\d+):(?&lt;minutes&gt;\d+):(?&lt;seconds&gt;\d+)" 
 | eval response_time_hrs=if(isnotnull(hours), round(hours + (minutes/60) + (seconds/3600), 2), 0) 
-| stats avg(response_time_hrs) as avg_response by priority 
+| chart avg(response_time_hrs) as avg_response over priority by  agent
 | sort -avg_response</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
+        <option name="charting.axisTitleY.text">Average Response Time (hours)</option>
         <option name="charting.chart">bar</option>
         <option name="charting.drilldown">none</option>
-        <option name="charting.axisTitleY.text">Average Response Time (hours)</option>
+        <option name="refresh.display">progressbar</option>
       </chart>
     </panel>
   </row>
-  
   <row>
     <panel>
       <title>Recent Tickets</title>
       <table>
         <search>
-          <query>index=ticket_data agent=$agent_token$ | table _time ticket_id subject status priority agent | sort -_time | head 20</query>
+          <query>index=ticket_data agent IN ($agent_token$)
+| table _time ticket_id subject status priority agent 
+| sort -_time | head 20</query>
           <earliest>$time_token.earliest$</earliest>
           <latest>$time_token.latest$</latest>
         </search>
+        <option name="refresh.display">progressbar</option>
       </table>
     </panel>
   </row>
-</dashboard>
+</form>
