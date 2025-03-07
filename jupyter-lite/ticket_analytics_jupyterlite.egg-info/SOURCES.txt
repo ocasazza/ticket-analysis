@@ -1,0 +1,7 @@
+README.md
+setup.py
+ticket_analytics_jupyterlite.egg-info/PKG-INFO
+ticket_analytics_jupyterlite.egg-info/SOURCES.txt
+ticket_analytics_jupyterlite.egg-info/dependency_links.txt
+ticket_analytics_jupyterlite.egg-info/requires.txt
+ticket_analytics_jupyterlite.egg-info/top_level.txt

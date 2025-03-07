@@ -32,13 +32,18 @@ If you encounter issues with the build:
 1. Ensure you have Python 3.8+ installed
 2. Try installing the dependencies manually:
    ```bash
-   python -m pip install -r requirements.txt
-   python -m pip install jupyterlite
+   python -m pip install --upgrade pip wheel
+   python -m pip install jupyterlite-core
+   python -m pip install -e .
    ```
 3. Run the build command directly:
    ```bash
-   python -m jupyterlite build
+   python -m jupyterlite build --output-dir _output
    ```
+4. If you get dependency errors, check that:
+   - You have a recent version of pip and wheel
+   - All dependencies in setup.py are available
+   - The output directory has been specified correctly
 
 ## Deployment
 

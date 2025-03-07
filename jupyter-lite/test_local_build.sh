@@ -39,15 +39,16 @@ echo "Using Python: $PYTHON_CMD"
 echo "Using pip: $PIP_CMD"
 
 echo "Installing required dependencies..."
-$PIP_CMD install -r requirements.txt || { echo "Failed to install from requirements.txt"; exit 1; }
-$PIP_CMD install jupyterlite || { echo "Failed to install jupyterlite"; exit 1; }
+$PIP_CMD install --upgrade pip wheel || { echo "Failed to upgrade pip"; exit 1; }
+$PIP_CMD install jupyterlite-core || { echo "Failed to install jupyterlite-core"; exit 1; }
+$PIP_CMD install -e . || { echo "Failed to install package from setup.py"; exit 1; }
 
 echo "Creating data directory..."
 mkdir -p content/data
 cp -r ../data/fresh_service_tickets content/data/ 2>/dev/null || echo "Could not copy data files (this is normal if running locally first time)"
 
 echo "Building JupyterLite..."
-$PYTHON_CMD -m jupyterlite build || { 
+$PYTHON_CMD -m jupyterlite build --output-dir _output || { 
     echo "Failed to build JupyterLite."
     echo "You may need to check for any errors above or try installing manually:" 
     echo "$PIP_CMD install jupyterlite"

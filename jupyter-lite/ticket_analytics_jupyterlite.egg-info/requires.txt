@@ -1,0 +1,15 @@
+jupyterlite-core
+jupyterlite-xeus-python
+jupyterlab
+jupyterlab-fasta
+jupyterlab-geojson
+jupyterlab-tour
+plotly
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+seaborn
+ipywidgets
+theme-darcula
