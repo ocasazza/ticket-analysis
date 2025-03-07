@@ -1,0 +1,17 @@
+services:
+  so1:
+    image: ${SPLUNK_IMAGE:-splunk/splunk:latest}
+    platform: linux/amd64
+    container_name: so1
+    environment:
+      - SPLUNK_START_ARGS=--accept-license
+      - SPLUNK_HEC_TOKEN=abcd1234
+      - SPLUNK_PASSWORD=${SPLUNK_PASSWORD:-adminadmin}
+      - SPLUNK_APPS_URL=https://splunkbase.splunk.com/app/1546/release/2.1.0/download
+    ports:
+      - 8000:8000
+      - 8088:8088
+    volumes:
+      - ./data/fresh_service_tickets:/opt/splunk/etc/apps/ticket_data/data/tickets
+      - ./splunk-config:/opt/splunk/etc/apps/ticket_data/local
+    restart: unless-stopped
