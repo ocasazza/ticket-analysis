@@ -1,4 +1,5 @@
 README.md
+pyproject.toml
 setup.py
 ticket_analytics_jupyterlite.egg-info/PKG-INFO
 ticket_analytics_jupyterlite.egg-info/SOURCES.txt

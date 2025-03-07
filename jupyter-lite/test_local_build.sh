@@ -44,14 +44,19 @@ $PIP_CMD install jupyterlite-core || { echo "Failed to install jupyterlite-core"
 $PIP_CMD install -e . || { echo "Failed to install package from setup.py"; exit 1; }
 
 echo "Creating data directory..."
-mkdir -p content/data
-cp -r ../data/fresh_service_tickets content/data/ 2>/dev/null || echo "Could not copy data files (this is normal if running locally first time)"
+mkdir -p content/data/fresh_service_tickets
+cp -r ../data/fresh_service_tickets/*.csv content/data/fresh_service_tickets/ 2>/dev/null || echo "Could not copy data files (this is normal if running locally first time)"
+
+# Print list of files to verify
+echo "Files in content/data/fresh_service_tickets:"
+ls -la content/data/fresh_service_tickets/ 2>/dev/null || echo "No files found"
 
 echo "Building JupyterLite..."
-$PYTHON_CMD -m jupyterlite build --output-dir _output || { 
+# Use the command with pyproject.toml configuration
+$PYTHON_CMD -m jupyterlite build --config pyproject.toml || { 
     echo "Failed to build JupyterLite."
-    echo "You may need to check for any errors above or try installing manually:" 
-    echo "$PIP_CMD install jupyterlite"
+    echo "You can try running directly with verbose output:"
+    echo "$PYTHON_CMD -m jupyterlite build --config pyproject.toml --debug"
     exit 1
 }
 

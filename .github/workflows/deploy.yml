@@ -30,14 +30,32 @@ jobs:
 
     - name: Copy data to content directory
       run: |
-        mkdir -p jupyter-lite/content/data
-        cp -r data/fresh_service_tickets jupyter-lite/content/data/
+        # Create directory structure
+        mkdir -p jupyter-lite/content/data/fresh_service_tickets
+
+        # Copy CSV files
+        cp -r data/fresh_service_tickets/*.csv jupyter-lite/content/data/fresh_service_tickets/
+
+        # List files to verify
+        echo "Files copied to jupyter-lite/content/data/fresh_service_tickets:"
+        ls -la jupyter-lite/content/data/fresh_service_tickets/
 
     - name: Build JupyterLite
       run: |
+        # Install the package without changing directory
+        python -m pip install -e jupyter-lite
+
+        # Make sure static directory exists
+        mkdir -p jupyter-lite/static
+
+        # Change directory and build with config
         cd jupyter-lite
-        python -m pip install -e .
-        jupyter lite build --output-dir ../dist
+
+        jupyter lite build --config pyproject.toml
+
+        # Copy output to dist directory
+        mkdir -p ../dist
+        cp -r _output/* ../dist/
 
     - name: Fix output directory permissions
       run: |

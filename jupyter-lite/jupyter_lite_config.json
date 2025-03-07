@@ -1,9 +1,5 @@
 {
   "LiteBuildConfig": {
-    "contents": [
-      "content"
-    ],
-    "output_dir": "../dist",
     "apps_dir": "apps",
     "app_archive": true,
     "federated_extensions": [],
