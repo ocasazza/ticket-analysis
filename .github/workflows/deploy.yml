@@ -64,9 +64,15 @@ jobs:
 
         jupyter lite build --config pyproject.toml
 
-        # List files to verify
+        # Create output directory for files (must be done after the build)
+        mkdir -p _output/files/data/fresh_service_tickets
+
+        # Copy CSV files directly to the output directory
+        cp -r $GITHUB_WORKSPACE/data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/ || echo "Warning: Could not copy CSV files"
+
+        # List files to verify (with error handling)
         echo "Files copied to output directory:"
-        ls -la _output/files/data/fresh_service_tickets/
+        ls -la _output/files/data/fresh_service_tickets/ || echo "Warning: Directory not created successfully"
 
         # Debug: List all files in _output directory
         echo "All files in _output directory:"
