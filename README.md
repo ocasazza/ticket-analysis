@@ -1,12 +1,12 @@
 # Ticket Analytics Splunk Setup
 
-This project automatically imports ticket data from CSV files into a Splunk instance for analysis.
+This project automatically imports ticket data from CSV files into a Splunk instance for analysis. The setup includes proper time-based indexing using the "Created Time" field and automatic field name formatting to snake_case.
 
 ## Prerequisites
 
 - Docker and Docker Compose installed
 - Running on a system that can use amd64 platform images (the setup uses platform emulation if needed)
-- The ticket CSV data files in the `data/Tickets_Export/` directory
+- The ticket CSV data files in the `data/fresh_service_tickets/` directory
 
 ## Configuration
 
