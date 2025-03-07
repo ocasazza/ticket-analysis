@@ -1,6 +1,9 @@
-# Ticket Analytics
+# Ticket Analytics Splunk Setup
 
-This project provides tools for analyzing ticket data through both Splunk and JupyterLite. The setup includes proper time-based indexing using the "Created Time" field and automatic field name formatting.
+This project automatically imports ticket data from CSV files into a Splunk instance for analysis. The setup includes:
+- Automatic field name formatting to snake_case (converting "Field Name" to "field_name")
+- Configuration to use "created_time" as the timestamp field for events
+- A pre-configured dashboard for visualizing ticket data
 
 ## Prerequisites
 
@@ -43,59 +46,3 @@ The setup includes:
   - `inputs.conf`: Controls data input settings
   - `props.conf`: Configures data processing
   - `indexes.conf`: Defines index properties
-
-## JupyterLite for Data Analysis
-
-This project also includes a JupyterLite deployment that lets you analyze ticket data directly in your browser without requiring a Python backend server.
-
-### Features
-
-- Runs entirely in the browser using WebAssembly
-- Pre-loaded with common data science libraries (pandas, numpy, matplotlib, seaborn, scikit-learn)
-- Sample notebooks for ticket data analysis
-- Access to ticket data from the repository
-
-### How to Use JupyterLite
-
-The JupyterLite instance is automatically deployed to GitHub Pages when changes are pushed to the main branch.
-
-1. Visit the GitHub Pages URL for this repository (typically `https://[username].github.io/[repository-name]/`)
-2. The JupyterLite interface will load in your browser
-3. Open the sample `ticket_analysis.ipynb` notebook to start analyzing ticket data
-4. Create new notebooks for your custom analysis
-
-### Local Development
-
-For quick local testing, we've included a helper script:
-
-1. Run the test script (this will install dependencies, build the site, and provide instructions):
-   ```
-   cd jupyter-lite
-   ./test_local_build.sh
-   ```
-
-2. After a successful build, serve the site locally:
-   ```
-   python -m http.server 8765 -d _output
-   ```
-
-3. Open your browser to `http://localhost:8765/` to access the local JupyterLite instance
-
-Alternatively, you can perform the steps manually:
-
-1. Install the required packages:
-   ```
-   pip install -r jupyter-lite/requirements.txt
-   pip install jupyterlite
-   ```
-
-2. Build the JupyterLite site:
-   ```
-   cd jupyter-lite
-   python -m jupyterlite build
-   ```
-
-3. Serve the site locally:
-   ```
-   python -m http.server 8765 -d _output
-   ```

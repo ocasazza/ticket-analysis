@@ -1,3 +1,2 @@
 .venv
-jupyter-lite/content/data
-jupyter-lite/_output/
+jupyter-lite/_output
