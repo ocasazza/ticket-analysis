@@ -1,0 +1,65 @@
+2025-03-06 18:25:21,474 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,474 - freshservice_scraper - ERROR - Error connecting to Freshservice: Connection failed
+2025-03-06 18:25:21,475 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,476 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,477 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain.freshservice.com
+2025-03-06 18:25:21,477 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,478 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,478 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,478 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:25:21,479 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:25:21,479 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:25:21,479 - freshservice_scraper - WARNING - No tickets found in response. Keys: []
+2025-03-06 18:25:21,479 - freshservice_scraper - INFO - Total tickets retrieved: 0
+2025-03-06 18:25:21,480 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,480 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,480 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:25:21,480 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:25:21,480 - freshservice_scraper - ERROR - Error fetching tickets: API error
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Found 2 tickets in response
+2025-03-06 18:25:21,482 - freshservice_scraper - INFO - Total tickets retrieved: 2
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - API response received, type: <class 'list'>
+2025-03-06 18:25:21,484 - freshservice_scraper - INFO - Found 2 tickets in list response
+2025-03-06 18:25:21,485 - freshservice_scraper - INFO - Total tickets retrieved: 2
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Found 1 ticket in response
+2025-03-06 18:25:21,486 - freshservice_scraper - INFO - Total tickets retrieved: 1
+2025-03-06 18:25:21,493 - freshservice_scraper - INFO - Starting Freshservice ticket retrieval using freshpy
+2025-03-06 18:25:21,493 - freshservice_scraper - INFO - Command line arguments: None
+2025-03-06 18:25:21,495 - freshservice_scraper - INFO - Starting Freshservice ticket retrieval using freshpy
+2025-03-06 18:25:21,495 - freshservice_scraper - INFO - Command line arguments: <MagicMock id='4370883152'>
+2025-03-06 18:25:21,495 - freshservice_scraper - INFO - Completed processing 25 tickets across all date ranges.
+2025-03-06 18:25:21,496 - freshservice_scraper - INFO - Starting Freshservice ticket retrieval using freshpy
+2025-03-06 18:25:21,496 - freshservice_scraper - INFO - Command line arguments: None
+2025-03-06 18:25:21,497 - freshservice_scraper - ERROR - Error: API key is required. Provide it with --api-key or set freshservice_scraper_KEY environment variable.
+2025-03-06 18:25:21,502 - freshservice_scraper - ERROR - Error: Start date must be before or equal to end date.
+2025-03-06 18:25:21,503 - freshservice_scraper - ERROR - Error: start-date is required when using interval parameters.
+2025-03-06 18:25:21,504 - freshservice_scraper - ERROR - Error: Either (start_date AND end_date) OR (interval_size AND interval_n) must be provided.
+2025-03-06 18:25:21,508 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpuctecsfz/test.csv in csv format
+2025-03-06 18:25:21,509 - freshservice_scraper - INFO - Successfully saved tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpuctecsfz/test.csv
+2025-03-06 18:25:21,510 - freshservice_scraper - WARNING - No tickets to save.
+2025-03-06 18:25:21,511 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmps4zfr64e/test.csv in csv format
+2025-03-06 18:25:21,511 - freshservice_scraper - ERROR - Error saving tickets: Save error
+2025-03-06 18:25:21,512 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpuqc6pn_7/test.xlsx in excel format
+2025-03-06 18:25:21,512 - freshservice_scraper - INFO - Successfully saved tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpuqc6pn_7/test.xlsx
+2025-03-06 18:25:21,513 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmp4btc4g9z/test.json in json format
+2025-03-06 18:25:21,513 - freshservice_scraper - INFO - Successfully saved tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmp4btc4g9z/test.json
+2025-03-06 18:25:21,514 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmp9jyyhvrp/test.parquet in parquet format
+2025-03-06 18:25:21,515 - freshservice_scraper - INFO - Successfully saved tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmp9jyyhvrp/test.parquet
+2025-03-06 18:25:21,516 - freshservice_scraper - INFO - Saving 2 tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpft757dpr/test.txt in txt format
+2025-03-06 18:25:21,516 - freshservice_scraper - WARNING - Unsupported output format: txt. Defaulting to CSV.
+2025-03-06 18:25:21,516 - freshservice_scraper - INFO - Successfully saved tickets to /var/folders/b7/xq6r70fs07vb1446w0v9kynh0000gp/T/tmpft757dpr/test.txt
+2025-03-06 18:25:21,519 - freshservice_scraper - INFO - Processing tickets from 2023-01-15 to 2023-01-31

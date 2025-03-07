@@ -1,0 +1,1944 @@
+[
+  {
+    "subject":"Prevent creation of new cases for PLDB jira project.",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002030493,
+    "responder_id":null,
+    "due_by":"2025-03-17T21:00:00Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T22:00:00Z",
+    "id":24214,
+    "priority":1,
+    "status":2,
+    "source":2,
+    "created_at":"2025-03-07T01:20:41Z",
+    "updated_at":"2025-03-07T01:20:41Z",
+    "workspace_id":2,
+    "requested_for_id":19002030493,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div id=\"isPasted\">Prevent creation of new cases for PLDB jira project.<\/div>\n<div>Could we make the PLDB project read-only, and mimic the work that done for other read-only projects? See <a href=\"https:\/\/schrodinger.atlassian.net\/browse\/ITDW-4837\" id=\"isPasted\" rel=\"noreferrer\">https:\/\/schrodinger.atlassian.net\/browse\/ITDW-4837<\/a>\n<\/div>",
+    "description_text":"Prevent creation of new cases for PLDB jira project.  Could we make the PLDB project read-only, and mimic the work that done for other read-only projects? See https:\/\/schrodinger.atlassian.net\/browse\/ITDW-4837",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can still work fully while you\u2019re fixing this",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Rose Gonoud : iLibrarian User",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19006185016,
+    "responder_id":null,
+    "due_by":"2025-03-13T21:00:00Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "tejaswi.bavineni@schrodinger.com"
+    ],
+    "cc_emails":[
+      "tejaswi.bavineni@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-10T17:00:00Z",
+    "id":24213,
+    "priority":2,
+    "status":4,
+    "source":2,
+    "created_at":"2025-03-06T23:16:36Z",
+    "updated_at":"2025-03-06T23:16:39Z",
+    "workspace_id":2,
+    "requested_for_id":19006185016,
+    "to_emails":null,
+    "type":"Service Request",
+    "description":"",
+    "description_text":"",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "General Inquiry"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Expensify",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19006133058,
+    "responder_id":null,
+    "due_by":"2025-03-17T19:19:38Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":19000019114.0,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "sysmgr@schrodinger.com"
+    ],
+    "cc_emails":[
+      "sysmgr@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T20:19:38Z",
+    "id":24210,
+    "priority":1,
+    "status":2,
+    "source":1,
+    "created_at":"2025-03-06T20:19:38Z",
+    "updated_at":"2025-03-06T20:19:38Z",
+    "workspace_id":2,
+    "requested_for_id":19006133058,
+    "to_emails":[
+      "sysmgr@schrodinger.com"
+    ],
+    "type":"Incident",
+    "description":"<div dir=\"ltr\">\n<div>Can you please add Expensify to my Okta dashboard.<\/div>\n<div><br><\/div>\n<div>Thanks!<\/div>\n<div>Jason<\/div>\n<div><br><\/div>\n<span>-- <\/span><br><div dir=\"ltr\"><div dir=\"ltr\">\n<div style=\"margin:0px 0px 1pt;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\">\n<span style=\"font-weight:bolder\">Jason Gmyrek<\/span>\u00a0| Director, GxP Quality Assurance and Compliance<\/div>\n<div style=\"margin:0px;font-family:Arial;font-size:12px;color:rgb(86,202,239);line-height:1.15\"><a href=\"tel:Mobile:+410-371-5101\" style=\"color:rgb(86,202,239);text-decoration:unset!important\" target=\"_blank\" rel=\"noreferrer\">Mobile: 410-371-5101<\/a><\/div>\n<div style=\"margin:0px 0px 1pt;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\"><a href=\"https:\/\/schrodinger.com\/\" style=\"color:rgb(13,110,253)\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https:\/\/s3.amazonaws.com\/content.schrodinger.com\/images\/email_sig\/logo.png\" alt=\"Schr\u00f6dinger, Inc.\" height=\"63.2\" style=\"vertical-align:middle\"><\/a><\/div>\n<\/div><\/div>\n<\/div>\n\n",
+    "description_text":"Can you please add Expensify to my Okta dashboard.\r\n\r\nThanks!\r\nJason\r\n\r\n-- \r\n\r\nJason Gmyrek | Director, GxP Quality Assurance and Compliance\r\n\r\nMobile: 410-371-5101\r\n\r\n[image: Schr\u00f6dinger, Inc.] <https:\/\/schrodinger.com\/>\r\n\r\n",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Restoring Packages on Linux Machine",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Operating System",
+    "sub_category":"Linux",
+    "item_category":"Package Install\/Uninstall",
+    "requester_id":19002729261,
+    "responder_id":19004111232.0,
+    "due_by":"2025-03-13T18:47:58Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-10T14:47:43Z",
+    "id":24208,
+    "priority":2,
+    "status":4,
+    "source":2,
+    "created_at":"2025-03-06T19:47:42Z",
+    "updated_at":"2025-03-06T21:26:58Z",
+    "workspace_id":2,
+    "requested_for_id":19002729261,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Hello! While trying to fix a bug, it seems that I have accidentally uninstalled core packages on my Ubuntu machine. Would it be possible to have Brew and Neovim installed on my desktop: <a href=\"\/\/desk-lu365.schrodinger.com?\" rel=\"noreferrer\">desk-lu365.schrodinger.com?<\/a>\u00a0<\/div>\n<div><br><\/div>\n<div>Thank you!<\/div>",
+    "description_text":"Hello! While trying to fix a bug, it seems that I have accidentally uninstalled core packages on my Ubuntu machine. Would it be possible to have Brew and Neovim installed on my desktop: desk-lu365.schrodinger.com?      Thank you!",
+    "custom_fields":{
+      "location":"Remote",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can find a way to stay productive until this is fixed",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "General Inquiry"
+      ],
+      "lf_on_behalf_of":19002729261
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Finishing ticket INC-22676 for DESK-LU521",
+    "group_id":19000367574.0,
+    "department_id":19000263672.0,
+    "category":"Hardware",
+    "sub_category":"Workstation (In Office)",
+    "item_category":null,
+    "requester_id":19002409234,
+    "responder_id":19004111232.0,
+    "due_by":"2025-03-13T18:28:47Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "Sekani Paul <sekani.paul@schrodinger.com>",
+      "Daniel Eiler <daniel.eiler@schrodinger.com>"
+    ],
+    "cc_emails":[
+      "sekani.paul@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-10T14:28:34Z",
+    "id":24207,
+    "priority":2,
+    "status":9,
+    "source":2,
+    "created_at":"2025-03-06T19:28:33Z",
+    "updated_at":"2025-03-06T21:40:48Z",
+    "workspace_id":2,
+    "requested_for_id":19002409234,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div id=\"isPasted\">Hello,<\/div>\n<div>This is in reference closed ticket INC-22676.\u00a0 The machine was plugged in and turned on next to my desk at FMA but I am not able to log into it. \u00a0I get an error \"unable to connect to DESK-LU521. Please verify the address or registration code and try again.\"<\/div>\n<div>Assistance would be greatly appreciated!<\/div>\n<div>Daniel<\/div>",
+    "description_text":"Hello,  This is in reference closed ticket INC-22676.  The machine was plugged in and turned on next to my desk at FMA but I am not able to log into it.  I get an error \"unable to connect to DESK-LU521. Please verify the address or registration code and try again.\"  Assistance would be greatly appreciated!  Daniel",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can find a way to stay productive until this is fixed",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19002409234
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Conference Room Coronado Issues",
+    "group_id":19000445069.0,
+    "department_id":19000267440.0,
+    "category":"Conference Room",
+    "sub_category":"Zoom room PC",
+    "item_category":null,
+    "requester_id":19001515642,
+    "responder_id":19001515642.0,
+    "due_by":"2025-03-17T18:02:04Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "Nadia Nsotaku <nadia.nsotaku@schrodinger.com>"
+    ],
+    "cc_emails":[
+      "nadia.nsotaku@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T19:02:04Z",
+    "id":24206,
+    "priority":1,
+    "status":9,
+    "source":9,
+    "created_at":"2025-03-06T19:02:02Z",
+    "updated_at":"2025-03-06T19:03:25Z",
+    "workspace_id":2,
+    "requested_for_id":19001515642,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div style=\"font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; font-size: 14px; \">\n<div dir=\"ltr\">== Issue ==<\/div>\n<div dir=\"ltr\">- Coronado prompted the same Mic\/Speaker issue as Palomar during a meeting onsite with the sales team.\u00a0<\/div>\n<div dir=\"ltr\"><br><\/div>\n<\/div>",
+    "description_text":"== Issue ==  - Coronado prompted the same Mic\/Speaker issue as Palomar during a meeting onsite with the sales team. ",
+    "custom_fields":{
+      "location":"SAN",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"IT Event : NYC - Pricing Committee Meeting - Carbon \/\/ 2025-03-07T09:30:00-05:00",
+    "group_id":19000445063.0,
+    "department_id":null,
+    "category":"Conference Room",
+    "sub_category":"IT Presence Support",
+    "item_category":null,
+    "requester_id":19004251687,
+    "responder_id":19001117989.0,
+    "due_by":"2025-03-17T17:50:33Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "Terence Nguyen <terence.nguyen@schrodinger.com>"
+    ],
+    "cc_emails":[
+      "terence.nguyen@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T18:50:11Z",
+    "id":24204,
+    "priority":1,
+    "status":2,
+    "source":3,
+    "created_at":"2025-03-06T18:50:11Z",
+    "updated_at":"2025-03-06T20:02:33Z",
+    "workspace_id":2,
+    "requested_for_id":19004251687,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>IT Event Scheduled on IT Event Calendar:\nPlease assign to IT Ops member based on location and coordinate with event organizer to gather event assistance requirements and provide support.\nLink: <a href=\"https:\/\/www.google.com\/calendar\/event?eid=MzFibnJwaWcyYzNhZGloMW9sbWIzN2s3aDkgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc\" rel=\"noreferrer\">https:\/\/www.google.com\/calendar\/event?eid=MzFibnJwaWcyYzNhZGloMW9sbWIzN2s3aDkgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc<\/a>\nDate\/Time Requested: \n2025-03-07T09:30:00-05:00 - 2025-03-07T10:00:00-05:00\nLocation : Carbon\nCreated On: 2025-03-06T18:47:59.000Z\n<\/div>",
+    "description_text":"IT Event Scheduled on IT Event Calendar:\nPlease assign to IT Ops member based on location and coordinate with event organizer to gather event assistance requirements and provide support.\nLink: https:\/\/www.google.com\/calendar\/event?eid=MzFibnJwaWcyYzNhZGloMW9sbWIzN2s3aDkgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc\nDate\/Time Requested: \n2025-03-07T09:30:00-05:00 - 2025-03-07T10:00:00-05:00\nLocation : Carbon\nCreated On: 2025-03-06T18:47:59.000Z",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"E-mail sent to ALL",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Software \/ Application",
+    "sub_category":"G Suite",
+    "item_category":null,
+    "requester_id":19005504176,
+    "responder_id":19004111232.0,
+    "due_by":"2025-03-17T17:35:44Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T18:34:59Z",
+    "id":24202,
+    "priority":1,
+    "status":4,
+    "source":2,
+    "created_at":"2025-03-06T18:34:59Z",
+    "updated_at":"2025-03-06T19:07:03Z",
+    "workspace_id":2,
+    "requested_for_id":19005504176,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Hi IT,<\/div>\n<div><br><\/div>\n<div>I accidentally unsubscribed from \"All\" distro list. Can I be re added please.<\/div>\n<div><br><\/div>\n<div>Thanks,<br>Deidre D.<\/div>",
+    "description_text":"Hi IT,     I accidentally unsubscribed from \"All\" distro list. Can I be re added please.     Thanks, Deidre D.",
+    "custom_fields":{
+      "location":"Remote",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can still work fully while you\u2019re fixing this",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "General Inquiry"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"The microphone on my laptop is not working",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Hardware",
+    "sub_category":"Laptop - Dell",
+    "item_category":null,
+    "requester_id":19002407988,
+    "responder_id":19001321387.0,
+    "due_by":"2025-03-11T15:57:10Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T20:57:10Z",
+    "id":24199,
+    "priority":3,
+    "status":9,
+    "source":2,
+    "created_at":"2025-03-06T16:56:38Z",
+    "updated_at":"2025-03-06T17:12:28Z",
+    "workspace_id":2,
+    "requested_for_id":19002407988,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>The microphone on my laptop suddenly stopped working already last October. In November Peter took a look and after some extensive testing he fixed the problem. Unfortunately the fix did not last very long and suddenly in December my microphone was again dead. At this stage Peter also looked at the problem remotely and again managed to fix it but again within just a few days the problem was back again.\u00a0<\/div>\n<div>This means I have now since months back had to dial in for all of my meetings - which is indeed very cumbersome. Therefore I would hope I can get this fixed asap or a new laptop could be ordered. Even presume my current laptop is still covered by guarantee.<\/div>",
+    "description_text":"The microphone on my laptop suddenly stopped working already last October. In November Peter took a look and after some extensive testing he fixed the problem. Unfortunately the fix did not last very long and suddenly in December my microphone was again dead. At this stage Peter also looked at the problem remotely and again managed to fix it but again within just a few days the problem was back again.   This means I have now since months back had to dial in for all of my meetings - which is indeed very cumbersome. Therefore I would hope I can get this fixed asap or a new laptop could be ordered. Even presume my current laptop is still covered by guarantee.",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":"2025-03-10T17:15:00Z",
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can\u2019t work until you fix this!",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19002407988
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Sherinx Li : Peripherals Request",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":"Purchase",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002458177,
+    "responder_id":null,
+    "due_by":"2025-03-13T15:55:53Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T20:55:53Z",
+    "id":24198,
+    "priority":2,
+    "status":10,
+    "source":2,
+    "created_at":"2025-03-06T16:55:51Z",
+    "updated_at":"2025-03-06T16:55:53Z",
+    "workspace_id":2,
+    "requested_for_id":19005805720,
+    "to_emails":null,
+    "type":"Service Request",
+    "description":"",
+    "description_text":"",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Derek Straker : FloQast",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Software \/ Application",
+    "sub_category":"FloQast",
+    "item_category":null,
+    "requester_id":19002408438,
+    "responder_id":19004188444.0,
+    "due_by":"2025-03-13T15:48:29Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "rebekah.page@schrodinger.com",
+      "josh.howton@schrodinger.com"
+    ],
+    "cc_emails":[
+      "rebekah.page@schrodinger.com",
+      "josh.howton@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T20:48:37Z",
+    "id":24196,
+    "priority":2,
+    "status":4,
+    "source":2,
+    "created_at":"2025-03-06T16:47:39Z",
+    "updated_at":"2025-03-06T17:43:29Z",
+    "workspace_id":2,
+    "requested_for_id":19002408438,
+    "to_emails":null,
+    "type":"Service Request",
+    "description":"",
+    "description_text":"",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "General Inquiry"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Microscope email notification has stop working",
+    "group_id":19000453302.0,
+    "department_id":19000267440.0,
+    "category":"Network",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19004698609,
+    "responder_id":19004270279.0,
+    "due_by":"2025-03-17T15:43:16Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "kensey.auguste@schrodinger.com",
+      "nathaniel.williams@schrodinger.com",
+      "sekani.paul@schrodinger.com"
+    ],
+    "cc_emails":[
+      "kensey.auguste@schrodinger.com",
+      "nathaniel.williams@schrodinger.com",
+      "sekani.paul@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T16:43:13Z",
+    "id":24195,
+    "priority":1,
+    "status":8,
+    "source":2,
+    "created_at":"2025-03-06T16:43:13Z",
+    "updated_at":"2025-03-06T21:40:43Z",
+    "workspace_id":2,
+    "requested_for_id":19004698609,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Please see the error I get from the support PC. There must be a setting change. I restarted the SPC and there was a windows update. This could have influence our email settings.<\/div>\n<div><br><\/div>\n<div>Please let me know if you have any questions.<\/div>\n<div><br><\/div>\n<div>Best,<\/div>\n<div>Phat<\/div>\n<div><br><\/div>",
+    "description_text":"Please see the error I get from the support PC. There must be a setting change. I restarted the SPC and there was a windows update. This could have influence our email settings.     Please let me know if you have any questions.     Best,  Phat",
+    "custom_fields":{
+      "location":"FMA",
+      "major_incident_type":null,
+      "requested_date":"2025-03-06T16:45:00Z",
+      "ticket_type":null,
+      "time_zone":"EST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can still work fully while you\u2019re fixing this",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19004698609
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"access permissions in GitHub to be able to fork repos into Schrodinger's org",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Software \/ Application",
+    "sub_category":"GitHub",
+    "item_category":null,
+    "requester_id":19006007883,
+    "responder_id":19005880147.0,
+    "due_by":"2025-03-11T15:30:39Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T20:30:35Z",
+    "id":24193,
+    "priority":3,
+    "status":12,
+    "source":2,
+    "created_at":"2025-03-06T16:30:34Z",
+    "updated_at":"2025-03-06T18:33:39Z",
+    "workspace_id":2,
+    "requested_for_id":19006007883,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>I am trying to fork a GitHub repository into Schrodinger's org, but am presently unable to do insufficient permissions.<\/div>\n<div><br><\/div>\n<div><img src=\"https:\/\/attachment.freshservice.com\/inline\/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTkwNjY0Mzg1NTAsImRvbWFpbiI6InNjaHJvZGluZ2VyLmZyZXNoc2VydmljZS5jb20iLCJ0eXBlIjoxfQ.qS3in4AHvpMMP0hEZnECLZoeSmAdSJpRo0LkZVIve4c\" style=\"width: auto;\" class=\"fr-fil fr-dib\" data-id=\"19066438550\"><\/div>\n<div><br><\/div>",
+    "description_text":"I am trying to fork a GitHub repository into Schrodinger's org, but am presently unable to do insufficient permissions.",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"EST",
+      "transferred":true,
+      "user_change_date":null,
+      "user_impact":"I can\u2019t work until you fix this!",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19006007883
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Update RDKIT for BQ Similarity\/Substructure Searches  via Cloud Functions",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"HPC",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002408221,
+    "responder_id":19002695194.0,
+    "due_by":"2025-03-07T16:27:45Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "fabio.ranalli@schrodinger.com",
+      "nick.boyles@schrodinger.com",
+      "steven.jerome@schrodinger.com",
+      "trip.garland@schrodinger.com"
+    ],
+    "cc_emails":[
+      "fabio.ranalli@schrodinger.com",
+      "nick.boyles@schrodinger.com",
+      "steven.jerome@schrodinger.com",
+      "trip.garland@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T17:27:46Z",
+    "id":24192,
+    "priority":4,
+    "status":12,
+    "source":2,
+    "created_at":"2025-03-06T16:27:45Z",
+    "updated_at":"2025-03-06T19:35:45Z",
+    "workspace_id":2,
+    "requested_for_id":19002408221,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Hi,\u00a0<\/div>\n<div><br><\/div>\n<div>as part of getting Substructure Search tool via BQ enabled. The goal is to update the underlying packages from RDKit to be updated to the latest versions. This ticket is made to keep track of the task.\u00a0<\/div>",
+    "description_text":"Hi,      as part of getting Substructure Search tool via BQ enabled. The goal is to update the underlying packages from RDKit to be updated to the latest versions. This ticket is made to keep track of the task. ",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":true,
+      "user_change_date":null,
+      "user_impact":"Multiple people can't work until you fix this!",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Closed in Jira"
+      ],
+      "msf_cause_code":[
+        "See Jira"
+      ],
+      "lf_on_behalf_of":19002408099
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"IT Event : NYC - Digital Realty - Hydrogen \/\/ 2025-03-11T14:00:00-04:00",
+    "group_id":19000445063.0,
+    "department_id":null,
+    "category":"Conference Room",
+    "sub_category":"IT Presence Support",
+    "item_category":null,
+    "requester_id":19004251687,
+    "responder_id":19002695194.0,
+    "due_by":"2025-03-17T15:25:30Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T16:25:30Z",
+    "id":24190,
+    "priority":1,
+    "status":2,
+    "source":3,
+    "created_at":"2025-03-06T16:25:11Z",
+    "updated_at":"2025-03-06T17:19:30Z",
+    "workspace_id":2,
+    "requested_for_id":19004251687,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>IT Event Scheduled on IT Event Calendar:\nPlease assign to IT Ops member based on location and coordinate with event organizer to gather event assistance requirements and provide support.\nLink: <a href=\"https:\/\/www.google.com\/calendar\/event?eid=NW1xZzd0Z2NodWhoZGhuamd0ZWlncXRnY2sgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc\" rel=\"noreferrer\">https:\/\/www.google.com\/calendar\/event?eid=NW1xZzd0Z2NodWhoZGhuamd0ZWlncXRnY2sgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc<\/a>\nDate\/Time Requested: \n2025-03-11T14:00:00-04:00 - 2025-03-11T15:00:00-04:00\nLocation : Hydrogen\nCreated On: 2025-03-06T16:24:25.000Z\n<\/div>",
+    "description_text":"IT Event Scheduled on IT Event Calendar:\nPlease assign to IT Ops member based on location and coordinate with event organizer to gather event assistance requirements and provide support.\nLink: https:\/\/www.google.com\/calendar\/event?eid=NW1xZzd0Z2NodWhoZGhuamd0ZWlncXRnY2sgY19iYTIwYjNiN2UxNTBjZjQ1NWM3MjBjMzcyZDg4YTcwOThhZjRmYTQzNmZkMTkwOTExODllNzgxNjA0MTY4NGVjQGc\nDate\/Time Requested: \n2025-03-11T14:00:00-04:00 - 2025-03-11T15:00:00-04:00\nLocation : Hydrogen\nCreated On: 2025-03-06T16:24:25.000Z",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Zoom Microphone Not Working",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19006188727,
+    "responder_id":19002695194.0,
+    "due_by":"2025-03-13T15:16:15Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T20:10:48Z",
+    "id":24189,
+    "priority":2,
+    "status":9,
+    "source":2,
+    "created_at":"2025-03-06T16:10:47Z",
+    "updated_at":"2025-03-06T21:59:01Z",
+    "workspace_id":2,
+    "requested_for_id":19006188727,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Hello,<\/div>\n<div><br><\/div>\n<div>My zoom microphone is not working. I restarted my laptop, played around with the Zoom and my laptop microphone settings but for some reason the microphone does not work.\u00a0<\/div>\n<div><br><\/div>\n<div>Thanks!<\/div>",
+    "description_text":"Hello,     My zoom microphone is not working. I restarted my laptop, played around with the Zoom and my laptop microphone settings but for some reason the microphone does not work.      Thanks!",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":"2025-03-06T16:15:00Z",
+      "ticket_type":"IT",
+      "time_zone":"EST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can find a way to stay productive until this is fixed",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Urgent: Global Gathering Webinar Link",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":"Software \/ Application",
+    "sub_category":"Zoom",
+    "item_category":null,
+    "requester_id":19002408940,
+    "responder_id":19001117977.0,
+    "due_by":"2025-03-17T14:51:23Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":19000019114.0,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "Nathaniel Williams Jr <nathaniel.williams@schrodinger.com>"
+    ],
+    "cc_emails":[
+      "nathaniel.williams@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T15:50:49Z",
+    "id":24187,
+    "priority":1,
+    "status":5,
+    "source":1,
+    "created_at":"2025-03-06T15:50:49Z",
+    "updated_at":"2025-03-06T16:31:23Z",
+    "workspace_id":2,
+    "requested_for_id":19002408940,
+    "to_emails":[
+      "IT Help <it-help@schrodinger.com>"
+    ],
+    "type":"Incident",
+    "description":"<div dir=\"ltr\">\n<div>Hello,<br>\n<\/div>\n<div><br><\/div>\n<div>There is a problem with the Global Gathering webinar link for today and I am not able to make a new one because I don't have Zoom Workplace. Please help ASAP!<\/div>\n<div><br><\/div>\n<div>Thank you,<\/div>\n<div>Allie<\/div>\n<div><br><\/div>\n<span>-- <\/span><br><div dir=\"ltr\"><div dir=\"ltr\">\n<div style=\"margin:0px 0px 1pt;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\">\n<span style=\"font-weight:bolder\">Allie Nicodemo<\/span>\u00a0| Senior Manager of Corporate Affairs<\/div>\n<div style=\"margin:0px 0px 1pt;font-family:Arial;font-size:12px;color:rgb(57,80,102);line-height:1.15\"><i>she\/her\/hers<\/i><\/div>\n<div style=\"margin:0px;font-family:Arial;font-size:12px;color:rgb(86,202,239);line-height:1.15\">P:\u00a0<a href=\"tel:617-356-2325\" style=\"color:rgb(86,202,239);text-decoration:unset!important\" target=\"_blank\" rel=\"noreferrer\">617-356-2325<\/a>\n<\/div>\n<div style=\"margin:0px 0px 1pt;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\"><a href=\"https:\/\/schrodinger.com\/\" style=\"color:rgb(13,110,253)\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https:\/\/s3.amazonaws.com\/content.schrodinger.com\/images\/email_sig\/logo.png\" alt=\"Schr\u00f6dinger, Inc.\" height=\"63.2\" style=\"vertical-align:middle\"><\/a><\/div>\n<\/div><\/div>\n<\/div>\n\n",
+    "description_text":"Hello,\r\n\r\nThere is a problem with the Global Gathering webinar link for today and I\r\nam not able to make a new one because I don't have Zoom Workplace. Please\r\nhelp ASAP!\r\n\r\nThank you,\r\nAllie\r\n\r\n-- \r\n\r\nAllie Nicodemo | Senior Manager of Corporate Affairs\r\n\r\n*she\/her\/hers*\r\n\r\nP: 617-356-2325\r\n\r\n[image: Schr\u00f6dinger, Inc.] <https:\/\/schrodinger.com\/>\r\n\r\n",
+    "custom_fields":{
+      "location":"NYC",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "General Inquiry"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Fwd: Warning: Tube detect needed extra sweeps in y-axis (occurred 2 or more times in 1 hour AND have not generated event in the past month for it)",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19001117977,
+    "responder_id":19005880147.0,
+    "due_by":"2025-03-17T14:36:19Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":19000019114.0,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T15:35:45Z",
+    "id":24186,
+    "priority":1,
+    "status":8,
+    "source":1,
+    "created_at":"2025-03-06T15:35:44Z",
+    "updated_at":"2025-03-06T19:25:11Z",
+    "workspace_id":2,
+    "requested_for_id":19001117977,
+    "to_emails":[
+      "IT Help <it-help@schrodinger.com>"
+    ],
+    "type":"Incident",
+    "description":"<div dir=\"ltr\">\n<br><br><div>\n<div dir=\"ltr\">---------- Forwarded message ---------<br>From: <span dir=\"auto\">&lt;<a href=\"mailto:optirunconnect@email.cytiva.com\" rel=\"noreferrer\">optirunconnect@email.cytiva.com<\/a>&gt;<\/span><br>Date: Thu, Mar 6, 2025 at 10:13\u202fAM<br>Subject: Warning: Tube detect needed extra sweeps in y-axis (occurred 2 or more times in 1 hour AND have not generated event in the past month for it)<br>To:  &lt;<a href=\"mailto:nathaniel.williams@schrodinger.com\" rel=\"noreferrer\">nathaniel.williams@schrodinger.com<\/a>&gt;<br>\n<\/div>\n<br><br><div>\n<u><\/u>\n\n  \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n      \n        \n\n        \n      \n\n    \n    \n    \n    \n    \n    \n  \n    \n    \n     \n    \n    \n  \n  <div style=\"word-spacing:normal;background-color:#ffffff\">\n    \n    \n      <div style=\"background-color:#ffffff\" lang=\"und\" dir=\"auto\">\n        \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:18px;font-weight:bold;line-height:1;text-align:left;color:#00886f\">OptiRun Connect has received the following warning<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:14px 0 0 0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:24px;line-height:1.4;text-align:left;color:#464649\">Tube detect needed extra sweeps in y-axis (occurred 2 or more times in 1 hour AND have not generated event in the past month for it)<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr\">\n        \n                \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word\">\n                  \n      <table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\" style=\"color:#000000;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none\">\n        <tbody>\n<tr>\n                <td><strong>Location<\/strong><\/td>\n                <td>12 MICHIGAN DR, 01760, \nNatick, United States of America<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>Date<\/strong><\/td>\n                <td>6-Mar-2025 @ 15:13 (UTC)<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>Error ID<\/strong><\/td>\n                <td>Warning 77<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>Event ID<\/strong><\/td>\n                <td>ORC-18296<\/td>\n              <\/tr>\n      <\/tbody>\n<\/table>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n              \n                \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:0;word-break:break-word\">\n                  \n      <table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" border=\"0\" style=\"color:#000000;font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none\">\n        <tbody>\n<tr>\n                <td><strong>System type<\/strong><\/td>\n                <td>AKTA pure 25 M<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>System name<\/strong><\/td>\n                <td>AKTA Pure 3<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>Product ID<\/strong><\/td>\n                <td>29018226-3052177<\/td>\n              <\/tr>\n              <tr>\n                <td><strong>Module<\/strong><\/td>\n                <td>eis.Frac_15<\/td>\n              <\/tr>\n      <\/tbody>\n<\/table>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n              \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:14px 0 0 0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:16px;line-height:1.4;text-align:left;color:#464649\">\n<div>This usually indicates that the sensor for the cassette scanning is having difficulty scanning the cassette codes properly. If this has not been resolved already, please check the following to try to resolve the issue.   <\/div>\n<ul>\n<li><div>Clean the cassette code sensor according to section 7.6.4 of the <a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9eu9kFoasWhDMvWD4AOYSJI-3DAdIt_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BTWRFgvWtBqt2PLVRvTJzNu9t1-2BFv5eBfGyXlGoXnJP3c3rgxsa44xfZrZfIoA2VHANB8p8ok9UowQ0EgOWwOxQvZvi0UYCRf-2FwcpJSLa9o-2BIGBviThscXE0D9wyPpYX56vzbGgHHidet2CfQtOg3jA-3D\" target=\"_blank\" rel=\"noreferrer\">\u00c4KTA avant User Manual<\/a><a rel=\"noreferrer\"><\/a> or <a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9a9E-2FIkD3mmWB-2BM-2FLLFR-2FQ3xh0OLbtnijnsYX96aiwsZyTV-_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BShUThEF-2Fr7a9ap0uzIE8Va4udZ1NiLP4IDUjTzkvdZNY-2BKtE1AXHziPijY1fDqCPjqzClLdLeUmD8soHDg-2B3wxCyhnZSeOYiWgoEsgLnmTXxnpP7WBtCuKfgRHjgHq8Ev4-2Fuw8mcyPIDE5nDX2Hufk-3D\" target=\"_blank\" rel=\"noreferrer\">\u00c4KTA pure User Manual<\/a><a rel=\"noreferrer\"><\/a>.<\/div><\/li>\n<li><div>Clean the cassette codes according to section 7.6.4 of the <a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9eu9kFoasWhDMvWD4AOYSJI-3DZRPt_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BRrXMvJ5gwan0w-2BjiKbJfBUdgx7lSRzx2Zq2uZ7LRB9N5Msq7duGRo1hPZ9bU0sEY6Js6fn643h5QQh9fV5F3iaMQsb9moPILQNL8U3n9Oe5Ym5RP1OAgXbrsaDzZIWAIRuShoTNnnd6Hh-2BdwCZeC3E-3D\" target=\"_blank\" rel=\"noreferrer\">\u00c4KTA avant User Manual<\/a><a rel=\"noreferrer\"><\/a> or<a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9a9E-2FIkD3mmWB-2BM-2FLLFR-2FQ3xh0OLbtnijnsYX96aiwsZQmm2_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BUGLtp6FoQu0mjJA-2BzDU1kSi-2FAo-2BMtOhZiV9gmPdCAW47HbcIlZ7RFUvAmLPU0FFfBiO-2BbIHkVwO3PwkXfqJPNVMa-2BE92C-2FUO6bcPBLatAU2RDWvR95GmAYFQYXr2kLqsVizQPLPFYaWwm0MBmBv-2BUY-3D\" target=\"_blank\" rel=\"noreferrer\">\u00c4KTA pure User Manual<\/a><a rel=\"noreferrer\"><\/a>.<\/div><\/li>\n<\/ul>\n            <div>If the issue remains after troubleshooting, contact the OptiRun service solutions team.<\/div>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;border-top:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">Canada<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\">+1 (800) 463-5800<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">China<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\">+86 (800) 810-9118<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">Germany<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\">0800-9080-711, option 2<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">India<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\"><\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">UK<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\">0800-515-313, option 2<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"border-bottom:1px solid #c5c8c9;direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#5d5d5f\">US<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-right:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:20px;text-align:left;color:#5d5d5f\">+1 (800) 526-3593, option 4<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:10px 25px;padding-left:0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;font-weight:700;line-height:20px;text-align:left;color:#000000\">\n<img src=\"https:\/\/optirunconnect.cytiva.com\/email-icon.png\"><a rel=\"noreferrer\">Email support<\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:14px 0 0 0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:16px;line-height:1.4;text-align:left;color:#464649\">If you need additional support or your country is not listed above, visit our\n            <a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F441NBQa-2FVRfeJJSfvo2J5h8I3DZSfkXIdq5R-2BcW3D14-2BQM-2B7LCeVLrTJq1W-2Bx0i9Jb2ZhAhWwogyIQDdQxhr8E-3DX0xl_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BQRzg-2Bp3HEnI02KPZjz-2BSgRWDlIUTXl-2Fzg9AZe8-2FevBvgiQdGpNmjzDVy56iisVFT-2FUQ1SXInEG-2FRk4xQwGfL6oO4ERbINs5cJl7-2F3P0zrS4YabiTjEU4FxNmYd2fSKidBxuz6lnawfSV5AKI5iSrYU-3D\" target=\"_blank\" rel=\"noreferrer\"><strong>global contact information page<\/strong><\/a>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"center\" style=\"font-size:0px;padding:0;word-break:break-word\">\n                  \n      <div style=\"border-top:solid 1px #c5c8c9;font-size:1px;margin:0px auto;width:100%\">\n      <\/div>\n      \n      \n    \n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr\">\n        \n                \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:75%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:14px 0 0 0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:16px;line-height:1.4;text-align:left;color:#464649\">Sent to: <a href=\"mailto:nathaniel.williams@schrodinger.com\" rel=\"noreferrer\">nathaniel.williams@schrodinger.com<\/a> by <strong>Cytiva OptiRun Connect<\/strong>\n<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:0;padding-top:10px;word-break:break-word\">\n                  \n      <div style=\"font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:16px;line-height:1;text-align:left;color:#5d5d5f\"><strong>Do not reply to this email.<\/strong><\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n              \n                \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:25%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"right\" style=\"font-size:0px;padding:0;word-break:break-word\">\n                  \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border-collapse:collapse;border-spacing:0px\">\n        <tbody>\n          <tr>\n            <td style=\"width:150px\">\n              \n      <img alt=\"\" src=\"https:\/\/optirunconnect.cytiva.com\/cytiva_logo.png\" style=\"border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px\" width=\"150\" height=\"auto\">\n    \n            <\/td>\n          <\/tr>\n        <\/tbody>\n      <\/table>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n              \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n      \n      <div style=\"margin:0px auto;max-width:800px\">\n        \n        <table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\">\n          <tbody>\n            <tr>\n              <td style=\"direction:ltr;font-size:0px;padding:14px 0;text-align:center\">\n                \n            \n      <div style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%\">\n        \n      <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"vertical-align:top\" width=\"100%\">\n        <tbody>\n          \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:14px 0 0 0;word-break:break-word\">\n                  \n      <div style=\"font-family:CytivaRegular,Calibri,'Helvetica Neue';font-size:14px;line-height:1.4;text-align:left;color:#464649\">\n<a href=\"http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F6VPdZROocrSMQGnjr4Z0hl55Sf-2BJrKVkBxWgIWh27UJPbwsUtIqhiiYElmZzvQaGOfjjfc3RoZdxPDRfaa4U3RF8ZGtZpQ96A2qCcsQa5tyJwpnPDZKl07EJygpwgrMNpJtlWKId8RDBt-2FlmvV23oo-3DJZxQ_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BaqDLURmegMTeER6qObwBhvXSCsPRXE3oule69rmibVrDtpT-2Fd0aMnXCFu0EiZM9Qrm0Z-2B7SpDWcN2IKN9L9c8T1XZ1F-2FqcGAYckqA9yvflAYMEZaaeM55QgNRVjLb1hnxiAIk9pojZWZR8R3UTaIyE-3D\" target=\"_blank\" rel=\"noreferrer\">Unsubscribe<\/a> from emails for this warning<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n              <tr>\n                <td align=\"left\" style=\"font-size:0px;padding:0;padding-top:6px;word-break:break-word\">\n                  \n      <div style=\"font-family:Ubuntu,Helvetica,Arial,sans-serif;font-size:12px;line-height:1;text-align:left;color:#5d5d5f\">For security unsubscribe links are only valid for 7 days. Expires: 13-Mar-2025 @ 15:13 (UTC)<\/div>\n    \n                <\/td>\n              <\/tr>\n            \n        <\/tbody>\n      <\/table>\n    \n      <\/div>\n    \n          \n              <\/td>\n            <\/tr>\n          <\/tbody>\n        <\/table>\n        \n      <\/div>\n    \n      \n      \n    \n    \n      <\/div>\n    \n  <img src=\"http:\/\/url4972.email.cytiva.com\/wf\/open?upn=u001.HREsonXwlI-2B01JapfPz3k1z3ty8f4B-2F95jMPqoHSBWmfDop7bLIAitTGaILulKt5bV8QPG8LOvt3wpHw2Vz04sfpGBCbSMav7K19BucDChF4s-2FQd-2FMXuWhfHxamIVxAoN4Ah89ZzS9pAPumBLA3XIkLT-2BipTZ2TFlLmsgfehrhG0Fx0UIB7LrUTgi56VzU-2BgT3iSOJOh2Plu3ITH3IUtcsi1JAepHljWZLOHxFyy80A-3D\" alt=\"\" width=\"1\" height=\"1\" style=\"height:1px!important;width:1px!important;border-width:0!important;margin-top:0!important;margin-bottom:0!important;margin-right:0!important;margin-left:0!important;padding-top:0!important;padding-bottom:0!important;padding-right:0!important;padding-left:0!important\">\n<\/div>\n\n  <\/div>\n<\/div>\n<div><br><\/div>\n<div><br><\/div>\n<span>-- <\/span><br><div dir=\"ltr\"><div dir=\"ltr\">\n<span style=\"color:rgb(34,34,34)\">Best regards,<\/span><br style=\"color:rgb(34,34,34)\"><span style=\"color:rgb(34,34,34)\">Nathaniel Williams Jr<\/span><br style=\"color:rgb(34,34,34)\"><span style=\"color:rgb(34,34,34)\">IT-Operations Manager<\/span><div><a href=\"https:\/\/schrodinger.com\/\" style=\"font-family:Arial;font-size:12px;color:rgb(13,110,253)\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https:\/\/s3.amazonaws.com\/content.schrodinger.com\/images\/email_sig\/logo.png\" alt=\"Schr\u00f6dinger, Inc.\" height=\"63.2\" style=\"vertical-align:middle\"><\/a><\/div>\n<div><a href=\"http:\/\/www.schrodinger.com\/\" target=\"_blank\" rel=\"noreferrer\">www.schrodinger.com<\/a><\/div>\n<\/div><\/div>\n<\/div>\n\n",
+    "description_text":"---------- Forwarded message ---------\r\nFrom: <optirunconnect@email.cytiva.com>\r\nDate: Thu, Mar 6, 2025 at 10:13\u202fAM\r\nSubject: Warning: Tube detect needed extra sweeps in y-axis (occurred 2 or\r\nmore times in 1 hour AND have not generated event in the past month for it)\r\nTo: <nathaniel.williams@schrodinger.com>\r\n\r\n\r\nOptiRun Connect has received the following warning\r\nTube detect needed extra sweeps in y-axis (occurred 2 or more times in 1\r\nhour AND have not generated event in the past month for it)\r\n*Location* 12 MICHIGAN DR, 01760, Natick, United States of America\r\n*Date* 6-Mar-2025 @ 15:13 (UTC)\r\n*Error ID* Warning 77\r\n*Event ID* ORC-18296\r\n*System type* AKTA pure 25 M\r\n*System name* AKTA Pure 3\r\n*Product ID* 29018226-3052177\r\n*Module* eis.Frac_15\r\n\r\nThis usually indicates that the sensor for the cassette scanning is having\r\ndifficulty scanning the cassette codes properly. If this has not been\r\nresolved already, please check the following to try to resolve the issue.\r\n\r\n   -\r\n\r\n   Clean the cassette code sensor according to section 7.6.4 of the \u00c4KTA\r\n   avant User Manual\r\n   <http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9eu9kFoasWhDMvWD4AOYSJI-3DAdIt_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BTWRFgvWtBqt2PLVRvTJzNu9t1-2BFv5eBfGyXlGoXnJP3c3rgxsa44xfZrZfIoA2VHANB8p8ok9UowQ0EgOWwOxQvZvi0UYCRf-2FwcpJSLa9o-2BIGBviThscXE0D9wyPpYX56vzbGgHHidet2CfQtOg3jA-3D>\r\n   or \u00c4KTA pure User Manual\r\n   <http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9a9E-2FIkD3mmWB-2BM-2FLLFR-2FQ3xh0OLbtnijnsYX96aiwsZyTV-_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BShUThEF-2Fr7a9ap0uzIE8Va4udZ1NiLP4IDUjTzkvdZNY-2BKtE1AXHziPijY1fDqCPjqzClLdLeUmD8soHDg-2B3wxCyhnZSeOYiWgoEsgLnmTXxnpP7WBtCuKfgRHjgHq8Ev4-2Fuw8mcyPIDE5nDX2Hufk-3D>\r\n   .\r\n   -\r\n\r\n   Clean the cassette codes according to section 7.6.4 of the \u00c4KTA avant\r\n   User Manual\r\n   <http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9eu9kFoasWhDMvWD4AOYSJI-3DZRPt_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BRrXMvJ5gwan0w-2BjiKbJfBUdgx7lSRzx2Zq2uZ7LRB9N5Msq7duGRo1hPZ9bU0sEY6Js6fn643h5QQh9fV5F3iaMQsb9moPILQNL8U3n9Oe5Ym5RP1OAgXbrsaDzZIWAIRuShoTNnnd6Hh-2BdwCZeC3E-3D>\r\n   or\u00c4KTA pure User Manual\r\n   <http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F81VUM-2BlO-2F9pWF5rj-2B7ZRJ-2Fesf48oa5dyOP2j4zlbXDsg4uewVNqXrS9LwDhJsJm9a9E-2FIkD3mmWB-2BM-2FLLFR-2FQ3xh0OLbtnijnsYX96aiwsZQmm2_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BUGLtp6FoQu0mjJA-2BzDU1kSi-2FAo-2BMtOhZiV9gmPdCAW47HbcIlZ7RFUvAmLPU0FFfBiO-2BbIHkVwO3PwkXfqJPNVMa-2BE92C-2FUO6bcPBLatAU2RDWvR95GmAYFQYXr2kLqsVizQPLPFYaWwm0MBmBv-2BUY-3D>\r\n   .\r\n\r\nIf the issue remains after troubleshooting, contact the OptiRun service\r\nsolutions team.\r\nCanada\r\n+1 (800) 463-5800\r\nEmail support\r\nChina\r\n+86 (800) 810-9118\r\nEmail support\r\nGermany\r\n0800-9080-711, option 2\r\nEmail support\r\nIndia\r\nEmail support\r\nUK\r\n0800-515-313, option 2\r\nEmail support\r\nUS\r\n+1 (800) 526-3593, option 4\r\nEmail support\r\nIf you need additional support or your country is not listed above, visit\r\nour *global contact information page*\r\n<http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F441NBQa-2FVRfeJJSfvo2J5h8I3DZSfkXIdq5R-2BcW3D14-2BQM-2B7LCeVLrTJq1W-2Bx0i9Jb2ZhAhWwogyIQDdQxhr8E-3DX0xl_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BQRzg-2Bp3HEnI02KPZjz-2BSgRWDlIUTXl-2Fzg9AZe8-2FevBvgiQdGpNmjzDVy56iisVFT-2FUQ1SXInEG-2FRk4xQwGfL6oO4ERbINs5cJl7-2F3P0zrS4YabiTjEU4FxNmYd2fSKidBxuz6lnawfSV5AKI5iSrYU-3D>\r\n\r\nSent to: nathaniel.williams@schrodinger.com by *Cytiva OptiRun Connect*\r\n*Do not reply to this email.*\r\nUnsubscribe\r\n<http:\/\/url4972.email.cytiva.com\/ls\/click?upn=u001.p61AFxsNkPMwUrF5vuRj-2F6VPdZROocrSMQGnjr4Z0hl55Sf-2BJrKVkBxWgIWh27UJPbwsUtIqhiiYElmZzvQaGOfjjfc3RoZdxPDRfaa4U3RF8ZGtZpQ96A2qCcsQa5tyJwpnPDZKl07EJygpwgrMNpJtlWKId8RDBt-2FlmvV23oo-3DJZxQ_h-2FW4DSvZGhKY-2FmU3Rq-2F3L7OXtkFecPQkur1CNfG34D9nJsaH-2F1cSmxPqb8iFoy-2Bk0ulbNXonyqn6adaa4plr-2BaqDLURmegMTeER6qObwBhvXSCsPRXE3oule69rmibVrDtpT-2Fd0aMnXCFu0EiZM9Qrm0Z-2B7SpDWcN2IKN9L9c8T1XZ1F-2FqcGAYckqA9yvflAYMEZaaeM55QgNRVjLb1hnxiAIk9pojZWZR8R3UTaIyE-3D>\r\nfrom emails for this warning\r\nFor security unsubscribe links are only valid for 7 days. Expires:\r\n13-Mar-2025 @ 15:13 (UTC)\r\n\r\n\r\n-- \r\nBest regards,\r\nNathaniel Williams Jr\r\nIT-Operations Manager\r\n[image: Schr\u00f6dinger, Inc.] <https:\/\/schrodinger.com\/>\r\nwww.schrodinger.com\r\n\r\n",
+    "custom_fields":{
+      "location":"FMA",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"JIRA - Remove \"Transition to --> Resolved\" workflow option from the PROSERV Project",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Improvement Request",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002407896,
+    "responder_id":19004111232.0,
+    "due_by":"2025-03-13T14:21:11Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T19:21:11Z",
+    "id":24185,
+    "priority":2,
+    "status":8,
+    "source":2,
+    "created_at":"2025-03-06T15:21:06Z",
+    "updated_at":"2025-03-06T17:07:25Z",
+    "workspace_id":2,
+    "requested_for_id":19002407896,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Please remove the \"Transition to \u00a0--&gt;Resolved\" workflow option in the PROSERV JIRA Project. We already have the \"Resolve Issue --&gt; Resolved\" workflow and it is all we require for resolving tickets.<\/div>",
+    "description_text":"Please remove the \"Transition to  -->Resolved\" workflow option in the PROSERV JIRA Project. We already have the \"Resolve Issue --> Resolved\" workflow and it is all we require for resolving tickets.",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":"2025-03-07T20:00:00Z",
+      "ticket_type":"IT",
+      "time_zone":"EST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can find a way to stay productive until this is fixed",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":"https:\/\/schrodinger.atlassian.net\/plugins\/servlet\/project-config\/PROSERV\/workflows",
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19002407896
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Setup of additional IAM permission for AWS China",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":"Cloud",
+    "sub_category":"AWS",
+    "item_category":null,
+    "requester_id":19002408251,
+    "responder_id":19005880147.0,
+    "due_by":"2025-03-17T13:57:10Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "felix.wolfheimer@schrodinger.com"
+    ],
+    "cc_emails":[
+      "felix.wolfheimer@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T14:57:10Z",
+    "id":24184,
+    "priority":1,
+    "status":2,
+    "source":2,
+    "created_at":"2025-03-06T14:56:28Z",
+    "updated_at":"2025-03-07T00:32:04Z",
+    "workspace_id":2,
+    "requested_for_id":19002408251,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Dear Team,<\/div>\n<div>I'd like to configure OIDC on AWS China such that the management of license servers can be performed through GitHub Actions. Additionally, I'd like to configure an instance profile with the \"CloudWatchAgentServerPolicy\" to setup alerts, e.g. disk space, for license servers.<\/div>\n<div>To this end, it may be easiest to temporarily grant my user the SuperAdmin role in the account for the setup. Once everything has been configured that role can be removed.<\/div>\n<div>Thanks,<\/div>\n<div>Felix<\/div>",
+    "description_text":"Dear Team,  I'd like to configure OIDC on AWS China such that the management of license servers can be performed through GitHub Actions. Additionally, I'd like to configure an instance profile with the \"CloudWatchAgentServerPolicy\" to setup alerts, e.g. disk space, for license servers.  To this end, it may be easiest to temporarily grant my user the SuperAdmin role in the account for the setup. Once everything has been configured that role can be removed.  Thanks,  Felix",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can still work fully while you\u2019re fixing this",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"JIRA -  Changes needed for PROSERV Project in JIRA",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Improvement Request",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002407896,
+    "responder_id":19004270279.0,
+    "due_by":"2025-03-13T13:23:39Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T18:22:45Z",
+    "id":24180,
+    "priority":2,
+    "status":12,
+    "source":2,
+    "created_at":"2025-03-06T14:22:44Z",
+    "updated_at":"2025-03-06T16:42:39Z",
+    "workspace_id":2,
+    "requested_for_id":19002407896,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>We need a some changes to the configuration &amp; fields in the PROSERV JIRA Project used by SA Team.<\/div>\n<div>* Add\/expose a \"SubComponent\" field so we can further qualify the \"Component\" Field with details on each ticket<\/div>\n<div>* Make sure the \"Customer\" list contains all customer names from SalesForce that have an active LiveDesign OR virtual Cluster P.O.\/SoW\/Contract in place.\u00a0<\/div>",
+    "description_text":"We need a some changes to the configuration & fields in the PROSERV JIRA Project used by SA Team.  * Add\/expose a \"SubComponent\" field so we can further qualify the \"Component\" Field with details on each ticket  * Make sure the \"Customer\" list contains all customer names from SalesForce that have an active LiveDesign OR virtual Cluster P.O.\/SoW\/Contract in place. ",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":"2025-03-07T17:00:00Z",
+      "ticket_type":"IT",
+      "time_zone":"EST",
+      "transferred":true,
+      "user_change_date":null,
+      "user_impact":"I can find a way to stay productive until this is fixed",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":"https:\/\/schrodinger.atlassian.net\/jira\/software\/c\/projects\/PROSERV\/settings\/details",
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19002407896
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Shiven Shandilya : Jira",
+    "group_id":null,
+    "department_id":19000267440.0,
+    "category":null,
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002407896,
+    "responder_id":null,
+    "due_by":"2025-03-13T13:17:43Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T18:17:43Z",
+    "id":24179,
+    "priority":2,
+    "status":5,
+    "source":2,
+    "created_at":"2025-03-06T14:17:43Z",
+    "updated_at":"2025-03-06T14:18:11Z",
+    "workspace_id":2,
+    "requested_for_id":19002407896,
+    "to_emails":null,
+    "type":"Service Request",
+    "description":"",
+    "description_text":"",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Archival of service work projects",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Folder \/ Drive - Access",
+    "sub_category":null,
+    "item_category":null,
+    "requester_id":19002408569,
+    "responder_id":19002695194.0,
+    "due_by":"2025-03-13T13:00:53Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T22:00:00Z",
+    "id":24178,
+    "priority":2,
+    "status":3,
+    "source":2,
+    "created_at":"2025-03-06T13:58:00Z",
+    "updated_at":"2025-03-06T19:59:53Z",
+    "workspace_id":2,
+    "requested_for_id":19002408569,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>I would like to request the archival of the zipped folders of three project works carried out by me they are currently located in the following paths in MHG:<br>\/nfs\/working\/matsci\/mileo\/beiersdorf_07_22.tar.gz<br>\/nfs\/working\/matsci\/mileo\/beiersdorf_09_21.tar.gz<br>\/nfs\/working\/matsci\/mileo\/beiersdorf_11_23.tar.gz<\/div>",
+    "description_text":"I would like to request the archival of the zipped folders of three project works carried out by me they are currently located in the following paths in MHG: \/nfs\/working\/matsci\/mileo\/beiersdorf_07_22.tar.gz \/nfs\/working\/matsci\/mileo\/beiersdorf_09_21.tar.gz \/nfs\/working\/matsci\/mileo\/beiersdorf_11_23.tar.gz",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":"2025-03-06T19:00:00Z",
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can still work fully while you\u2019re fixing this",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":19002408569
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Problem with gmail password",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"IAM - Identity Management",
+    "sub_category":"Google - Password Reset",
+    "item_category":null,
+    "requester_id":19002030441,
+    "responder_id":19004188444.0,
+    "due_by":"2025-03-11T13:04:20Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "Katalin Phimister <katalin.phimister@schrodinger.com>"
+    ],
+    "cc_emails":[
+      "katalin.phimister@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T18:00:00Z",
+    "id":24177,
+    "priority":3,
+    "status":5,
+    "source":2,
+    "created_at":"2025-03-06T13:24:27Z",
+    "updated_at":"2025-03-06T15:00:20Z",
+    "workspace_id":2,
+    "requested_for_id":19002030441,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>Hi,<\/div>\n<div>So sorry, I got locked out of my email and I clicked on 'Forgot my password' but now of course I don't have access to any of my email and it just told me to contact the domain administrator.<\/div>\n<div>Could someone please urgently help me to get access to email agian?<\/div>\n<div>I don't have access to anything outside Okta so if you can reach me by phone 447952229094 or reply through this ticketing system which I still have access to at the moment.<\/div>\n<div>Thanks so much for your help,<\/div>\n<div>Many thanks,<\/div>\n<div>Katalin<\/div>",
+    "description_text":"Hi,  So sorry, I got locked out of my email and I clicked on 'Forgot my password' but now of course I don't have access to any of my email and it just told me to contact the domain administrator.  Could someone please urgently help me to get access to email agian?  I don't have access to anything outside Okta so if you can reach me by phone 447952229094 or reply through this ticketing system which I still have access to at the moment.  Thanks so much for your help,  Many thanks,  Katalin",
+    "custom_fields":{
+      "location":"Remote",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can\u2019t work until you fix this!",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "Access Request"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Simon Elliott : EU - Laptop Request",
+    "group_id":19000445068.0,
+    "department_id":19000267440.0,
+    "category":"Purchase",
+    "sub_category":"Hardware",
+    "item_category":null,
+    "requester_id":19002407997,
+    "responder_id":19001321387.0,
+    "due_by":"2025-03-12T21:00:00Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+      "simon.elliott@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T18:00:00Z",
+    "id":24176,
+    "priority":2,
+    "status":10,
+    "source":2,
+    "created_at":"2025-03-06T10:55:48Z",
+    "updated_at":"2025-03-06T11:33:52Z",
+    "workspace_id":2,
+    "requested_for_id":19002407997,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div style=\"font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; font-size: 14px; \"><div><span style=\"font-family: inherit; font-size: inherit;\" dir=\"ltr\" id=\"isPasted\">On my new laptop, windows keeps asking me for my current credentials. &nbsp;I lock the screen, enter my password (or PIN - it doesn't seem to matter) and login. &nbsp;A few minutes later it asks again. &nbsp;Then it gives up, until the next day. &nbsp;Any thoughts please?<\/span><\/div><\/div>",
+    "description_text":"On my new laptop, windows keeps asking me for my current credentials. &nbsp;I lock the screen, enter my password (or PIN - it doesn't seem to matter) and login. &nbsp;A few minutes later it asks again. &nbsp;Then it gives up, until the next day. &nbsp;Any thoughts please?",
+    "custom_fields":{
+      "location":null,
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":null,
+      "time_zone":null,
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Request for Neville Antony Jose : Home Monitor Request || Approvals Needed: No",
+    "group_id":19000445066.0,
+    "department_id":19000267440.0,
+    "category":"Purchase",
+    "sub_category":"Hardware",
+    "item_category":null,
+    "requester_id":19002971276,
+    "responder_id":19004188444.0,
+    "due_by":"2025-03-13T08:43:45Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "vipin.jain@schrodinger.com"
+    ],
+    "cc_emails":[
+      "vipin.jain@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-10T02:43:45Z",
+    "id":24175,
+    "priority":2,
+    "status":3,
+    "source":2,
+    "created_at":"2025-03-06T08:43:34Z",
+    "updated_at":"2025-03-06T09:58:34Z",
+    "workspace_id":2,
+    "requested_for_id":19002971276,
+    "to_emails":null,
+    "type":"Service Request",
+    "description":"",
+    "description_text":"",
+    "custom_fields":{
+      "location":"HYD",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"IST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Re: Request for a new macbook",
+    "group_id":19000445066.0,
+    "department_id":19000267440.0,
+    "category":"Operating System",
+    "sub_category":"MacOS",
+    "item_category":null,
+    "requester_id":19002030448,
+    "responder_id":19004188444.0,
+    "due_by":"2025-03-17T07:40:07Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":19000019114.0,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+      "nadim.shaikh@schrodinger.com"
+    ],
+    "cc_emails":[
+      "nadim.shaikh@schrodinger.com",
+      "it-help@schrodinger.com"
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T06:55:54Z",
+    "id":24171,
+    "priority":1,
+    "status":3,
+    "source":1,
+    "created_at":"2025-03-06T06:55:25Z",
+    "updated_at":"2025-03-06T08:19:44Z",
+    "workspace_id":2,
+    "requested_for_id":19002030448,
+    "to_emails":[
+      "Nadim Shaikh <nadim.shaikh@schrodinger.com>"
+    ],
+    "type":"Incident",
+    "description":"<div dir=\"auto\">\n<div>Dear IT<div dir=\"auto\">Please look into this Asap. And treat this a urgent. Nadim also has an important\u00a0 meeting with the third party next week.\u00a0 Therefore we need your help in resolving this asap.\u00a0<\/div>I approve\u00a0 a new laptop for him..<\/div>\n<div dir=\"auto\">Best<\/div>\n<div dir=\"auto\">Madhavi<br><br><div dir=\"auto\">\n<div dir=\"ltr\">On Thu, 6 Mar, 2025, 12:00 Nadim Shaikh, &lt;<a href=\"mailto:nadim.shaikh@schrodinger.com\" rel=\"noreferrer\">nadim.shaikh@schrodinger.com<\/a>&gt; wrote:<br>\n<\/div>\n<blockquote style=\"margin:0 0 0 .8ex;border-left:1px #ccc solid;padding-left:1ex\">\n<div dir=\"ltr\">\n<div>Hi Madhavi!<\/div>\n<div><br><\/div>\n<div>I wanted to bring to your attention the recurring hardware issues I\u2019m facing with my laptop. A month ago, IT replaced my previous system due to an in-built camera malfunction (ticket #INC-22880), but the same issue has resurfaced with the replacement device. During yesterday\u2019s meeting, the laptop camera shut down unexpectedly, causing a 10-minute delay in a 30-minute discussion (Ticket #24128).<\/div>\n<div>Both systems I have used are over four years old (2019 models), sometimes it automatically shuts down while working and these ongoing issues are affecting productivity. I don't want to try another old system again because its time time taking\u00a0task to get settled with another system. To avoid further disruptions, I would like to request a new MacBook (preferably 14-inch). This can be the long term solution.<br>Kindly suggest, if any further steps are needed. Thanks for your consideration!<\/div>\n<div>Ticket #24128 (earlier ticket #INC-22880<\/div>\n<span>-- <\/span><br><div dir=\"ltr\"><div dir=\"ltr\">\n<div style=\"color:rgb(34,34,34)\">Nadim<\/div>\n<div style=\"color:rgb(34,34,34)\">\n<br><div><div dir=\"ltr\"><div dir=\"ltr\">\n<div style=\"margin:0px;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\">\n<b>Nadim Shaikh Ph. D.<\/b>| Senior Principal Scientist, Medicinal Chemistry, Schr\u00f6dinger Therapeutics, Hyderabad, India.<\/div>\n<div style=\"margin:0px;font-family:Arial;font-size:12px;color:rgb(7,55,99);line-height:1.15\"><a href=\"https:\/\/schrodinger.com\/\" style=\"color:rgb(13,110,253)\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https:\/\/s3.amazonaws.com\/content.schrodinger.com\/images\/email_sig\/logo.png\" alt=\"Schr\u00f6dinger, Inc.\" height=\"63.2\" style=\"vertical-align:middle\"><\/a><\/div>\n<\/div><\/div><\/div>\n<\/div>\n<\/div><\/div>\n<\/div>\n<\/blockquote>\n<\/div>\n<\/div>\n<\/div>\n\n",
+    "description_text":"Dear IT\r\nPlease look into this Asap. And treat this a urgent. Nadim also has an\r\nimportant  meeting with the third party next week.  Therefore we need your\r\nhelp in resolving this asap.\r\nI approve  a new laptop for him..\r\nBest\r\nMadhavi\r\n\r\nOn Thu, 6 Mar, 2025, 12:00 Nadim Shaikh, <nadim.shaikh@schrodinger.com>\r\nwrote:\r\n\r\n> Hi Madhavi!\r\n>\r\n> I wanted to bring to your attention the recurring hardware issues I\u2019m\r\n> facing with my laptop. A month ago, IT replaced my previous system due to\r\n> an in-built camera malfunction (ticket #INC-22880), but the same issue has\r\n> resurfaced with the replacement device. During yesterday\u2019s meeting, the\r\n> laptop camera shut down unexpectedly, causing a 10-minute delay in a\r\n> 30-minute discussion (Ticket #24128).\r\n> Both systems I have used are over four years old (2019 models), sometimes\r\n> it automatically shuts down while working and these ongoing issues are\r\n> affecting productivity. I don't want to try another old system again\r\n> because its time time taking task to get settled with another system. To\r\n> avoid further disruptions, I would like to request a new MacBook\r\n> (preferably 14-inch). This can be the long term solution.\r\n> Kindly suggest, if any further steps are needed. Thanks for your\r\n> consideration!\r\n> Ticket #24128 (earlier ticket #INC-22880\r\n> --\r\n> Nadim\r\n>\r\n> *Nadim Shaikh Ph. D.*| Senior Principal Scientist, Medicinal Chemistry,\r\n> Schr\u00f6dinger Therapeutics, Hyderabad, India.\r\n>\r\n> [image: Schr\u00f6dinger, Inc.] <https:\/\/schrodinger.com\/>\r\n>\r\n\r\n",
+    "custom_fields":{
+      "location":"HYD",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"IST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Ada login",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"HPC",
+    "sub_category":"Ada",
+    "item_category":null,
+    "requester_id":19005293945,
+    "responder_id":19002382318.0,
+    "due_by":"2025-03-11T06:17:18Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-06T10:17:36Z",
+    "id":24170,
+    "priority":3,
+    "status":4,
+    "source":2,
+    "created_at":"2025-03-06T06:16:39Z",
+    "updated_at":"2025-03-06T07:08:18Z",
+    "workspace_id":2,
+    "requested_for_id":19005293945,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div>When I run ssh ewr-ada-sub-lv01.hpc.schrodinger.com it asks for a password, but I can't log in even if I enter my Okta password while logged in to Appgate.<\/div>\n<div><br><\/div>\n<div><img src=\"https:\/\/attachment.freshservice.com\/inline\/attachment?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTkwNjY0MDY4ODksImRvbWFpbiI6InNjaHJvZGluZ2VyLmZyZXNoc2VydmljZS5jb20iLCJ0eXBlIjoxfQ.AELtjVLDMeGpjzKXpmnlWscj-M4A7lrfIOJNSjhFlR0\" style=\"width: auto;\" class=\"fr-fic fr-fil fr-dib\" data-id=\"19066406889\"><\/div>\n<div><br><\/div>",
+    "description_text":"When I run ssh ewr-ada-sub-lv01.hpc.schrodinger.com it asks for a password, but I can't log in even if I enter my Okta password while logged in to Appgate.",
+    "custom_fields":{
+      "location":"HYD",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"JST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":"I can\u2019t work until you fix this!",
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "Educational"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"HYD - IT Procurement - Mini USB Dock for 8 pax rooms",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Purchase",
+    "sub_category":"Hardware",
+    "item_category":null,
+    "requester_id":19002382318,
+    "responder_id":19002382318.0,
+    "due_by":"2025-03-17T06:09:35Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T06:08:47Z",
+    "id":24169,
+    "priority":1,
+    "status":9,
+    "source":1,
+    "created_at":"2025-03-06T06:08:45Z",
+    "updated_at":"2025-03-06T06:34:35Z",
+    "workspace_id":2,
+    "requested_for_id":19002382318,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div style=\"font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; font-size: 14px; \"><div dir=\"ltr\">Need to procure a small USB C multi connector dock which will connect a USB from lightware to the Zoom PC. This is required as it resolves the intermediate VC disruption on Zoom or Gmeet where the audio or video stops working all of a sudden in the middle of the meeting.<\/div><\/div>",
+    "description_text":"Need to procure a small USB C multi connector dock which will connect a USB from lightware to the Zoom PC. This is required as it resolves the intermediate VC disruption on Zoom or Gmeet where the audio or video stops working all of a sudden in the middle of the meeting.",
+    "custom_fields":{
+      "location":"HYD",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"IST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+
+      ],
+      "msf_cause_code":[
+
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  },
+  {
+    "subject":"Sony headphones cushion replacement",
+    "group_id":19000367574.0,
+    "department_id":19000267440.0,
+    "category":"Purchase",
+    "sub_category":"Hardware",
+    "item_category":null,
+    "requester_id":19002408763,
+    "responder_id":19002382318.0,
+    "due_by":"2025-03-17T05:59:26Z",
+    "fr_escalated":false,
+    "deleted":false,
+    "spam":false,
+    "email_config_id":null,
+    "fwd_emails":[
+
+    ],
+    "reply_cc_emails":[
+
+    ],
+    "cc_emails":[
+
+    ],
+    "is_escalated":false,
+    "fr_due_by":"2025-03-07T05:59:12Z",
+    "id":24167,
+    "priority":1,
+    "status":4,
+    "source":1,
+    "created_at":"2025-03-06T05:59:12Z",
+    "updated_at":"2025-03-06T06:00:25Z",
+    "workspace_id":2,
+    "requested_for_id":19002408763,
+    "to_emails":null,
+    "type":"Incident",
+    "description":"<div style=\"font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif; font-size: 14px; \"><div><span dir=\"ltr\" style=\"font-family: inherit; font-size: inherit;\" id=\"isPasted\"><div dir=\"ltr\" style=\"font-family: inherit; font-size: inherit;\">Hi Tanveer, Do we have headphone cushions replacement? Mine are almost worn out.<\/div><\/span><\/div><\/div>",
+    "description_text":"Hi Tanveer, Do we have headphone cushions replacement? Mine are almost worn out.",
+    "custom_fields":{
+      "location":"HYD",
+      "major_incident_type":null,
+      "requested_date":null,
+      "ticket_type":"IT",
+      "time_zone":"IST",
+      "transferred":null,
+      "user_change_date":null,
+      "user_impact":null,
+      "business_impact":null,
+      "impacted_locations":null,
+      "no_of_customers_impacted":null,
+      "jira_url":null,
+      "user_change_email":null,
+      "change_number":null,
+      "fedex_return_tracking":null,
+      "fedex_tracking":null,
+      "msf_closure_code":[
+        "Solved (Permanently)"
+      ],
+      "msf_cause_code":[
+        "Access Request"
+      ],
+      "lf_on_behalf_of":null
+    },
+    "tasks_dependency_type":0
+  }
+]

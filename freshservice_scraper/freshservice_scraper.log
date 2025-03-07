@@ -1,0 +1,39 @@
+2025-03-06 18:39:25,494 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,494 - freshservice_scraper - ERROR - Error connecting to Freshservice: Connection failed
+2025-03-06 18:39:25,495 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,495 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,495 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain.freshservice.com
+2025-03-06 18:39:25,496 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,496 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,496 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,497 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:39:25,497 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:39:25,497 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:39:25,497 - freshservice_scraper - WARNING - No tickets found in response. Keys: []
+2025-03-06 18:39:25,497 - freshservice_scraper - INFO - Total tickets retrieved: 0
+2025-03-06 18:39:25,498 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,499 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,499 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:39:25,499 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:39:25,499 - freshservice_scraper - ERROR - Error fetching tickets: API error
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Found 2 tickets in response
+2025-03-06 18:39:25,502 - freshservice_scraper - INFO - Total tickets retrieved: 2
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - API response received, type: <class 'list'>
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Found 2 tickets in list response
+2025-03-06 18:39:25,503 - freshservice_scraper - INFO - Total tickets retrieved: 2
+2025-03-06 18:39:25,504 - freshservice_scraper - INFO - Connecting to Freshservice domain: testdomain
+2025-03-06 18:39:25,504 - freshservice_scraper - INFO - Successfully initialized FreshPy client
+2025-03-06 18:39:25,504 - freshservice_scraper - INFO - Using updated_since: 2023-01-01T00:00:00Z
+2025-03-06 18:39:25,504 - freshservice_scraper - INFO - Fetching tickets...
+2025-03-06 18:39:25,504 - freshservice_scraper - INFO - API response received, type: <class 'dict'>
+2025-03-06 18:39:25,505 - freshservice_scraper - INFO - Found 1 ticket in response
+2025-03-06 18:39:25,505 - freshservice_scraper - INFO - Total tickets retrieved: 1
