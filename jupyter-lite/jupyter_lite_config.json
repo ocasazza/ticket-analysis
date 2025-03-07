@@ -1,0 +1,28 @@
+{
+  "LiteBuildConfig": {
+    "contents": [
+      "content"
+    ],
+    "output_dir": "../dist",
+    "apps_dir": "apps",
+    "app_archive": true,
+    "federated_extensions": [],
+    "plugin_config": {
+      "@jupyterlite/pyodide-kernel-extension:plugins": {
+        "pyodide": {
+          "packages": [
+            "numpy",
+            "pandas",
+            "matplotlib",
+            "seaborn",
+            "scikit-learn",
+            "scipy"
+          ]
+        }
+      }
+    },
+    "piplite_urls": [
+      "https://pypi.org/simple"
+    ]
+  }
+}

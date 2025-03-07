@@ -1,0 +1,45 @@
+name: Build and Deploy JupyterLite
+
+on:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r jupyter-lite/requirements.txt
+        pip install jupyter-lite-lab
+
+    - name: Copy data to content directory
+      run: |
+        mkdir -p jupyter-lite/content/data
+        cp -r data/fresh_service_tickets jupyter-lite/content/data/
+
+    - name: Build JupyterLite
+      run: |
+        cd jupyter-lite
+        jupyter lite build --output-dir ../dist
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: dist
+        branch: gh-pages

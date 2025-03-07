@@ -1,6 +1,6 @@
-# Ticket Analytics Splunk Setup
+# Ticket Analytics
 
-This project automatically imports ticket data from CSV files into a Splunk instance for analysis. The setup includes proper time-based indexing using the "Created Time" field and automatic field name formatting to snake_case.
+This project provides tools for analyzing ticket data through both Splunk and JupyterLite. The setup includes proper time-based indexing using the "Created Time" field and automatic field name formatting.
 
 ## Prerequisites
 
@@ -43,3 +43,46 @@ The setup includes:
   - `inputs.conf`: Controls data input settings
   - `props.conf`: Configures data processing
   - `indexes.conf`: Defines index properties
+
+## JupyterLite for Data Analysis
+
+This project also includes a JupyterLite deployment that lets you analyze ticket data directly in your browser without requiring a Python backend server.
+
+### Features
+
+- Runs entirely in the browser using WebAssembly
+- Pre-loaded with common data science libraries (pandas, numpy, matplotlib, seaborn, scikit-learn)
+- Sample notebooks for ticket data analysis
+- Access to ticket data from the repository
+
+### How to Use JupyterLite
+
+The JupyterLite instance is automatically deployed to GitHub Pages when changes are pushed to the main branch.
+
+1. Visit the GitHub Pages URL for this repository (typically `https://[username].github.io/[repository-name]/`)
+2. The JupyterLite interface will load in your browser
+3. Open the sample `ticket_analysis.ipynb` notebook to start analyzing ticket data
+4. Create new notebooks for your custom analysis
+
+### Local Development
+
+To build and test the JupyterLite deployment locally:
+
+1. Install the required packages:
+   ```
+   pip install -r jupyter-lite/requirements.txt
+   pip install jupyter-lite-lab
+   ```
+
+2. Build the JupyterLite site:
+   ```
+   cd jupyter-lite
+   jupyter lite build
+   ```
+
+3. Serve the site locally:
+   ```
+   jupyter lite serve
+   ```
+
+4. Open your browser to `http://localhost:8888/` to access the local JupyterLite instance
