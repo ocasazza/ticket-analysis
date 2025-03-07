@@ -53,9 +53,11 @@ jobs:
 
         jupyter lite build --config pyproject.toml
 
-        # Create data directories in the output directory
+        # Create data directories in the output directory and copy data files
         mkdir -p _output/files/data/fresh_service_tickets
-        cp -r ../../data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/
+
+        # Use absolute paths to reference files from the root of the repository
+        cp -r $GITHUB_WORKSPACE/data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/ || echo "Warning: Could not copy CSV files"
 
         # List files to verify
         echo "Files copied to output directory:"
