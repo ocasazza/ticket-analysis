@@ -30,11 +30,24 @@ output-dir = "_output"
 apps = ["lab", "retro"]
 contents = ["content"]
 static-dir = "static"
+ignore-sys-prefix = true
+piplite-urls = ["https://pypi.org/simple"]
 include-data = true # Ensure data files are included in the build
+disable-collaboration = false
 
 [tool.jupyterlite.files]
 # Include data files explicitly
 content = [
     "content/data/fresh_service_tickets/*.csv",
+    "content/data/sample_ticket.csv",
     "content/ticket_analysis.ipynb"
 ]
+
+[[tool.jupyterlite.extra-notebook-extensions]]
+package = "jupyterlab-plotly"
+
+[[tool.jupyterlite.extra-notebook-extensions]]
+package = "jupyterlab_widgets"
+
+[tool.jupyterlite.collaborative]
+room_prefix = "ticket-"

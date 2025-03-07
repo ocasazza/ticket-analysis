@@ -63,6 +63,13 @@ jobs:
         echo "Files copied to output directory:"
         ls -la _output/files/data/fresh_service_tickets/
 
+        # Debug: List all files in _output directory
+        echo "All files in _output directory:"
+        find _output -type f | sort
+
+        # Make sure all required directories exist in lab app
+        mkdir -p _output/lab/build
+
         # Copy output to dist directory
         mkdir -p ../dist
         cp -r _output/* ../dist/

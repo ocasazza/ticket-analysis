@@ -1,77 +1,62 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Ticket Analytics - JupyterLite</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        line-height: 1.6;
-        color: #333;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 2rem;
-      }
-      h1 {
-        color: #0078D4;
-        border-bottom: 2px solid #0078D4;
-        padding-bottom: 0.5rem;
-      }
-      .button {
-        display: inline-block;
-        background-color: #0078D4;
-        color: white;
-        padding: 0.75rem 1.5rem;
-        text-decoration: none;
-        border-radius: 4px;
-        font-weight: 600;
-        margin: 1rem 0;
-      }
-      .button:hover {
-        background-color: #005a9e;
-      }
-      .info {
-        background-color: #f8f9fa;
-        border-left: 4px solid #0078D4;
-        padding: 1rem;
-        margin: 1rem 0;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Ticket Analytics with JupyterLite</h1>
-    <p>Welcome to the Ticket Analytics JupyterLite deployment! This tool allows you to analyze FreshService ticket data directly in your browser using Python data science libraries.</p>
-    
-    <div class="info">
-      <p><strong>JupyterLite</strong> is a lightweight version of Jupyter that runs entirely in your web browser. It uses WebAssembly to enable Python data analysis without requiring a server backend.</p>
-    </div>
-    
-    <h2>Get Started</h2>
-    <p>Choose one of the following applications to begin your analysis:</p>
-    
-    <a href="./lab/index.html" class="button">JupyterLab</a>
-    <a href="./retro/notebooks/ticket_analysis.ipynb" class="button">Open Sample Notebook</a>
-    
-    <h2>Available Data</h2>
-    <p>The following data is included in this deployment:</p>
-    <ul>
-      <li><strong>FreshService Tickets</strong> - Support ticket data stored in CSV format</li>
-    </ul>
-    
-    <h2>Pre-installed Libraries</h2>
-    <p>This JupyterLite deployment includes common data science libraries:</p>
-    <ul>
-      <li>pandas - Data manipulation and analysis</li>
-      <li>numpy - Numerical computing</li>
-      <li>matplotlib - Data visualization</li>
-      <li>seaborn - Statistical data visualization</li>
-      <li>scikit-learn - Machine learning</li>
-      <li>scipy - Scientific computing</li>
-    </ul>
-    
-    <footer>
-      <p><small>Powered by <a href="https://jupyterlite.readthedocs.io/en/latest/" target="_blank">JupyterLite</a></small></p>
-    </footer>
-  </body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>JupyterLite - Ticket Analysis</title>
+
+  <script id="jupyter-config-data" type="application/json">
+    {
+      "appName": "JupyterLite",
+      "appVersion": "0.1.0"
+    }
+  </script>
+
+  <script>
+    // Redirect to Jupyter Lab directly to avoid confusion
+    document.addEventListener("DOMContentLoaded", function() {
+      setTimeout(function() {
+        window.location.href = "./lab/index.html";
+      }, 1000);
+    });
+  </script>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #0078D4;
+    }
+
+    p {
+      margin: 20px 0;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>JupyterLite - Ticket Analysis</h1>
+    <p>Redirecting to JupyterLab...</p>
+    <p>If you're not redirected automatically, <a href="./lab/index.html">click here</a>.</p>
+  </div>
+</body>
 </html>
