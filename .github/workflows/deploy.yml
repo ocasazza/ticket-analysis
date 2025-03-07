@@ -53,6 +53,14 @@ jobs:
 
         jupyter lite build --config pyproject.toml
 
+        # Create data directories in the output directory
+        mkdir -p _output/files/data/fresh_service_tickets
+        cp -r ../../data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/
+
+        # List files to verify
+        echo "Files copied to output directory:"
+        ls -la _output/files/data/fresh_service_tickets/
+
         # Copy output to dist directory
         mkdir -p ../dist
         cp -r _output/* ../dist/

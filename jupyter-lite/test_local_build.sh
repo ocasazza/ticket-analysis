@@ -62,6 +62,16 @@ $PYTHON_CMD -m jupyterlite build --config pyproject.toml || {
 
 if [ -d "_output" ]; then
     echo "Build successful! The _output directory was created."
+    
+    # Create directories in the output directory to match expected paths in the notebook
+    echo "Copying data files directly to output..."
+    mkdir -p _output/files/data/fresh_service_tickets
+    cp -r ../data/fresh_service_tickets/*.csv _output/files/data/fresh_service_tickets/
+    
+    # List files to verify
+    echo "Files in _output/files/data/fresh_service_tickets:"
+    ls -la _output/files/data/fresh_service_tickets/
+    
     echo "You can now test by running:"
     echo "$PYTHON_CMD -m http.server 8765 -d _output"
     echo "Then open your browser to http://localhost:8765"
